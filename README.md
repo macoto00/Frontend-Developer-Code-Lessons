@@ -10,3 +10,7 @@ Content of HTML
 # CSS
 
 Content of CSS
+
+# JavaScript
+
+Content of JavaScript
