@@ -21,7 +21,7 @@ Content of GIT & GITHUB
 
 # Frameworks
 
-Content of Frameworks (Bootstrap, Angular)
+Content of Frameworks (Bootstrap, Angular, React)
 
 # Deploy
 
