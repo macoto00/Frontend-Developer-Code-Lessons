@@ -22,7 +22,7 @@ This wiki contains all the learning materials, schedule and other guides
 ## Introduction, Development Setup, Git, GitHub
 At first, we will cover essential pillars of successful coding endeavors: Introduction, Development Setup, Git, and GitHub.
 
-Introduction:
+### Introduction:
 We'll kick off by introducing ourselves to the fascinating world of coding. It's not just about writing lines of code; it's about problem-solving, creativity, and making your ideas come to life through technology.
 
 Development Setup:
