@@ -19,7 +19,7 @@ This wiki contains all the learning materials, schedule and other guides
 - 5 weeks of Frameworks
 - 5 weeks of Deployment
 
-## Introduction, Development Setup, Git, GitHub
+## Introduction, Development Setup, Git, GitHub, Command line Commands
 At first, we will cover essential pillars of successful coding endeavors: Introduction, Development Setup, Git, and GitHub.
 
 ### Introduction:
@@ -33,6 +33,12 @@ Unleash the power of version control with Git! Learn how to track changes, colla
 
 ### GitHub - Your Coding Social Media:
 Welcome to GitHub, the social hub for coders! Discover the collaborative wonders of GitHub, where you'll share code, contribute to projects, and build a compelling portfolio to showcase your coding prowess.
+
+### Command Line Commands
+
+```
+  Like this one
+```
 
 By the end of these, you'll possess the technical skills to code but also the essential tools and knowledge to thrive in the coding ecosystem. Let's dive in and unlock the exciting world of coding together!
 
