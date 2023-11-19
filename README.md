@@ -36,6 +36,8 @@ Welcome to GitHub, the social hub for coders! Discover the collaborative wonders
 
 ### Command Line Commands
 
+`likeThisOne`
+
 ```
   Like this one
 ```
