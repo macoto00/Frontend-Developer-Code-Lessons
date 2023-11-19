@@ -1,7 +1,7 @@
 # Welcome to WIKI!
 This wiki contains all the learning materials, schedule and other guides
 
-## General info
+## General info abou Course
 - Online
 - 3 days a week
 - Homeworks
