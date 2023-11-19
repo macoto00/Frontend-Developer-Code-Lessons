@@ -134,6 +134,7 @@ By the end of this section, you'll possess the knowledge and skills to deploy yo
 use this tasks https://www.codewars.com/kata/57280481e8118511f7000ffa
 
 - https://robotdreams.cz/course/64-frontend-developer
+- https://praha.itstep.org/kurz-front-end
 - základní info o kurzu
 - pro koho je kurz vhodný
 - doba trvání kurz
