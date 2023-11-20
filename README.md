@@ -1,7 +1,7 @@
 # Welcome to WIKI!
 This wiki contains all the learning materials, schedule and other guides
 
-## General info about Course
+## General info about Course Frontend Developer
 - Online
 - Videos Learning, Google Materials, Practise in Lessons
 - Course in Czech language, Documentation in English
