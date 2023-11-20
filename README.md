@@ -113,7 +113,7 @@ Bootstrap, React, and Angular—each revolutionizing the way we build and design
 - Dive into Angular, a comprehensive framework for building robust and scalable single-page applications. Master its powerful features like two-way data binding, dependency injection, and modular development for creating sophisticated web apps.
 
 ### Usefull Stuff
-- Codepen, Templates, CSS shadow generator, Glassmorhism, Neumorphism & so on ...
+- Codepen, Templates, CSS shadow generator, Glassmorhism, Neumorphism, bubbles on background & so on ...
 
 By exploring these frameworks, you'll gain the skills to create responsive designs, dynamic user interfaces, and scalable applications that redefine user experiences on the web.
 
