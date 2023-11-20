@@ -20,6 +20,7 @@ This wiki contains all the learning materials, schedule and other guides
 - 5 weeks of JavaScript
 - 5 weeks of Frameworks
 - 5 weeks of Deployment
+- Final Project Showcase
 
 ## Introduction, Development Setup, Git, GitHub
 At first, we will cover essential pillars of successful coding endeavors: Introduction, Development Setup, Git, and GitHub.
