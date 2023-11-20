@@ -4,27 +4,27 @@ Now we will practice everything we have learned so far, or from theory to practi
 
 # What to use?
 
-- `<!DOCTYPE html>
-- `<head>
-- `<title>
-- `<body>
-- `<p>
-- `<h1> - <h6>
-- `<a>
-- `<img>
-- `<ul>, <ol>, <li>
-- `<div>
-- `<span>
-- `<header>
-- `<footer>
-- `<nav>
-- `<section>
-- `<main>
-- `<form>
-- `<input>
-- `<button>
-- `<audio>
-- `<video>
+- `<!DOCTYPE html>`
+- `<head>`
+- `<title>`
+- `<body>`
+- `<p>`
+- `<h1>` - `<h6>`
+- `<a>`
+- `<img>`
+- `<ul>`, `<ol>`, `<li>`
+- `<div>`
+- `<span>`
+- `<header>`
+- `<footer>`
+- `<nav>`
+- `<section>`
+- `<main>`
+- `<form>`
+- `<input>`
+- `<button>`
+- `<audio>`
+- `<video>`
 - or **GOOGLE**
 
 # My turn
