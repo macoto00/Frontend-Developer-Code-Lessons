@@ -24,16 +24,19 @@ HTML (Hypertext Markup Language) is the standard language used to create web pag
 A typical HTML document has a basic structure:
 
 ```
-html
-Copy code
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Title of the Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+
 <body>
-    <!-- Content goes here -->
+
 </body>
+
 </html>
 ```
 
