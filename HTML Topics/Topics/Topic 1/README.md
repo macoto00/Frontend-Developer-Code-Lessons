@@ -64,12 +64,67 @@ HTML uses elements to structure content:
 
 ### Block 4: Common HTML Elements
 
-- `<p>` Defines a paragraph.
-- `<h1>` to `<h6>` Heading tags for different levels of headings.
-- `<a>` Creates hyperlinks.
-- `<img>` Embeds images.
-- `<ul>, <ol>, <li>` Creates unordered and ordered lists with list items.
-- `<div>` and `<span>` Divides content into blocks or inline elements for styling and layout purposes.
+`<h1>`, `<h2>`, `<h3>`, ... `<h6>`: Defines headings of varying sizes.
+
+Example:
+
+```
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+```
+
+`<p>`: Indicates a paragraph.
+
+Example:
+
+```
+<p>This is a paragraph.</p>
+```
+
+`<a>`: Creates a hyperlink to other web pages or resources.
+
+Example:
+
+```
+<a href="https://www.example.com">Visit Example</a>
+```
+
+`<img>`: Embeds an image in the HTML document.
+
+Example:
+
+```
+<img src="image.jpg" alt="Description of the image">
+```
+
+`<ul>`, `<ol>`, `<li>`: Creates unordered and ordered lists with list items.
+
+Example:
+
+```
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+`<div>`: Defines a division or a section in an HTML document.
+
+Example:
+
+```
+<div>
+  <p>Content inside a div</p>
+</div>
+```
+
+`<span>`: Similar to `<div>`, but used for smaller inline sections.
+
+Example:
+
+```
+<p>This is <span>highlighted</span> text.</p>
+```
 
 ### Block 5: Semantic HTML
 Semantic HTML refers to using elements that convey meaning, aiding accessibility and SEO. Examples include `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, and `<main>`.
