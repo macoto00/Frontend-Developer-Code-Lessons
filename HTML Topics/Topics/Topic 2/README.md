@@ -2,7 +2,7 @@
 
 Now we will practice everything we have learned so far, or from theory to practice. You will draw on the previous lesson for your work. I'll show you a sample project, then the independent work will come. 
 
-# What to use?
+# What to use? Do you remember them all?
 
 - `<!DOCTYPE html>`
 - `<head>`
