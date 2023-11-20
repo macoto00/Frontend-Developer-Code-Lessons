@@ -62,7 +62,7 @@ HTML uses elements to structure content:
 ### Block 4: Common HTML Elements
 
 - `<p>` Defines a paragraph.
-- `<h1>` to <h6> Heading tags for different levels of headings.
+- `<h1>` to `<h6>` Heading tags for different levels of headings.
 - `<a>` Creates hyperlinks.
 - `<img>` Embeds images.
 - `<ul>, <ol>, <li>` Creates unordered and ordered lists with list items.
