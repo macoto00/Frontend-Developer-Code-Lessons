@@ -13,7 +13,7 @@ This wiki contains all the learning materials, schedule and other guides
 - Algorythms
 - Interview Practise
 
-## Lessons
+## Topics
 - 5 weeks of Introduction, Development Setup, Git, GitHub
 - 5 weeks of HTML
 - 5 weeks of CSS
