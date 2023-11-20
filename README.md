@@ -3,6 +3,7 @@ This wiki contains all the learning materials, schedule and other guides
 
 ## General info about Course
 - Online
+- Course in Czech language, Documentation in English
 - 3 days a week
 - Homeworks
 - Tell us How do you do Today
