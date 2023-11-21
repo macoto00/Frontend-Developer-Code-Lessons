@@ -5,7 +5,8 @@ Everything together, like when a cat and a dog were cooking a cake AKA simple HT
 For your work, try to do a research for:
 
 - something like HTML website favicon 
-- something like HTML how to set width and height to an image 
+- something like HTML how to set width and height to an image
+- where to get the icons? Whenever you want, you can try Flaticon (https://www.flaticon.com/)
 
 # The task is to create a simle HTML multi-page website
 
