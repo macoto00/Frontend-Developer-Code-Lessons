@@ -13,6 +13,18 @@
 - Resources and Further Learning
 - Practice and Implementation
 
+## Where to find a help? 
+
+GOOGLE, GOOLE, GOOGLE. 
+
+Try to help yourself, try to use the right words to finad what you need. Try to be specific. Learn how to compose a sentence to achieve a desired goal, to find what you are looking for. Your best friend should be google, relevant pages like: 
+
+- https://www.w3schools.com/
+- https://developer.mozilla.org/en-US/
+- https://stackoverflow.com/
+- https://chat.openai.com/
+- and others...
+
 ## Block 1: What is HTML?
 
 HTML (Hypertext Markup Language) is the standard language used to create web pages. It provides the structure and content of a webpage, consisting of various elements that define the different parts of a document.
