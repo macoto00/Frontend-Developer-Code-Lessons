@@ -17,7 +17,7 @@
 
 GOOGLE, GOOLE, GOOGLE. 
 
-Try to help yourself, try to use the right words to finad what you need. Try to be specific. Learn how to compose a sentence to achieve a desired goal, to find what you are looking for. Your best friend should be google, relevant pages like: 
+Try to help yourself, try to use the right words to find what you need. Try to be specific. Learn how to compose a sentence to achieve a desired goal, to find what you are looking for. Your best friend should be google, relevant pages like: 
 
 - https://www.w3schools.com/
 - https://developer.mozilla.org/en-US/
