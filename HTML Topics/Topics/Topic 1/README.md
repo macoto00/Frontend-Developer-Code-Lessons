@@ -25,6 +25,12 @@ Try to help yourself, try to use the right words to find what you need. Try to b
 - https://chat.openai.com/
 - and others...
 
+## Why?
+
+Because in many cases you will be forced to do something new. 
+
+You'll have to figure it out. Either you figure it out yourself using the knowledge you have, or you use something that someone has already solved before you and shared the solution. So why do some work at the beginning when someone has already solved it?
+
 ## Block 1: What is HTML?
 
 HTML (Hypertext Markup Language) is the standard language used to create web pages. It provides the structure and content of a webpage, consisting of various elements that define the different parts of a document.
