@@ -4,8 +4,8 @@ Everything together, like when a cat and a dog were cooking a cake AKA simple HT
 
 For your work, try to do a research for:
 
-- something like HTML website favicon (https://www.w3schools.com/html/html_favicon.asp)
-- something like HTML how to set width and height to an image (https://www.w3schools.com/tags/att_img_width.asp)
+- something like HTML website favicon 
+- something like HTML how to set width and height to an image 
 
 # This will be you task
 
