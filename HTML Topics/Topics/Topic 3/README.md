@@ -8,7 +8,11 @@ For your work, try to do a research for:
 - something like HTML how to set width and height to an image
 - where to get the icons? Whenever you want, you can try Flaticon (https://www.flaticon.com/)
 
-# The task is to create a simle HTML multi-page website
+# My Turn
+
+I'll show to you how to make a multi-page website. You can watch or you can code with me.
+
+# Your Turn - The task is to create a simle HTML multi-page website
 
 ## Webpage Favicon
 
