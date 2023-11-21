@@ -35,6 +35,10 @@ I'll start. You can watch or you can code with me.
 
 Now is your time to practise all you can. Don't worry if you don't catch up. You can complete your work later whenever you want.
 
+For your work, try to do a research for:
+
+- HTML form fieldset
+
 ### This is your task
 
 ![lessonWork](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/79947182-38b0-4f7b-b3a5-35c7ed184e22)
