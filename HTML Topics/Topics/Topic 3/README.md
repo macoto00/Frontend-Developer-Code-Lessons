@@ -12,7 +12,7 @@ For your work, try to do a research for:
 
 - something like HTML website favicon 
 - something like HTML how to set width and height to an image
-- where to get the icons? Whenever you want, you can try Flaticon (https://www.flaticon.com/)
+- where to get the icons? Wherever you want, you can try Flaticon (https://www.flaticon.com/)
 
 ## Webpage Favicon
 
