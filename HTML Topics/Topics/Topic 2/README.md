@@ -31,6 +31,8 @@ Now we will practice everything we have learned so far, or from theory to practi
 
 I'll start. You can watch or you can code with me.
 
+You can find the example work HERE.
+
 # Your turn
 
 Now is your time to practise all you can. Don't worry if you don't catch up. You can complete your work later whenever you want.
