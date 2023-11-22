@@ -37,6 +37,10 @@ HTML (Hypertext Markup Language) is the standard language used to create web pag
 
 ## Block 2: Basic HTML Structure
 
+At first, we need to create an HTML file. Typically it's called `index.html`. 
+
+It's a conventional name used for the main entry point or default page of a website within a directory. When a user navigates to a website's root URL (e.g., https://www.example.com/), the web server often looks for a file named "index.html" or a similar default index file (like index.htm, index.php, etc.) within that directory to serve as the initial page.
+
 A typical HTML document has a basic structure:
 
 ```
