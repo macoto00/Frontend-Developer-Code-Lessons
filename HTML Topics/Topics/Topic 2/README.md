@@ -37,8 +37,9 @@ Now is your time to practise all you can. Don't worry if you don't catch up. You
 
 For your work, try to do a research for:
 
-- HTML form fieldset
 - HTML text formatting
+- HTML form fieldset
+- HTML form label
 
 ### This is your task
 
