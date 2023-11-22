@@ -43,7 +43,7 @@ It's a conventional name used for the main entry point or default page of a webs
 
 A typical HTML document has a basic structure:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +73,7 @@ HTML uses elements to structure content:
 
 **Tags**: Enclosed in angle brackets (<>) to define elements, like `<p>` for paragraphs or `<h1>` for headings.
 
-```
+```html
 <p>Hello, World!</p>
 ```
 
@@ -81,61 +81,61 @@ HTML uses elements to structure content:
 
 `id`: Specifies a unique identifier for an element within a document.
 
-```
+```html
 <div id="uniqueId">...</div>
 ```
 
 `class`: Assigns one or more class names to an element, allowing CSS and JavaScript to target multiple elements with the same class.
 
-```
+```html
 <p class="highlighted">...</p>
 ```
 
 `style`: Sets inline CSS styles for an element.
 
-```
+```html
 <h1 style="color: red; font-size: 24px;">...</h1>
 ```
 
 `href`: Used in <a> elements to specify the URL to link to.
 
-```
+```html
 <a href="https://example.com">Link</a>
 ```
 
 `src`: Specifies the URL of the resource to be used by elements like <img>, <script>, and <iframe>.
 
-```
+```html
 <img src="image.jpg" alt="Image">
 ```
 
 `alt`: Provides alternative text for elements like <img>. It's displayed if the image fails to load or for accessibility purposes.
 
-```
+```html
 <img src="image.jpg" alt="Description of the image">
 ```
 
 `title`: Adds a title or tooltip to an element that is displayed when the user hovers over it.
 
-```
+```html
 <abbr title="Hypertext Markup Language">HTML</abbr>
 ```
 
 `disabled`: Disables an input element or button.
 
-```
+```html
 <button disabled>Disabled Button</button>
 ```
 
 `target`: Used in <a> elements to specify where to open the linked document.
 
-```
+```html
 <a href="https://example.com" target="_blank">Open in new tab</a>
 ```
 
 `rel`: Specifies the relationship between the current document and the linked document for <a> elements.
 
-```
+```html
 <a href="stylesheet.css" rel="stylesheet">...</a>
 ```
 
@@ -145,7 +145,7 @@ HTML uses elements to structure content:
 
 Example:
 
-```
+```html
 <h1>Main Heading</h1>
 <h2>Subheading</h2>
 ```
@@ -154,7 +154,7 @@ Example:
 
 Example:
 
-```
+```html
 <p>This is a paragraph.</p>
 ```
 
@@ -162,7 +162,7 @@ Example:
 
 Example:
 
-```
+```html
 <a href="https://www.example.com">Visit Example</a>
 ```
 
@@ -170,7 +170,7 @@ Example:
 
 Example:
 
-```
+```html
 <img src="image.jpg" alt="Description of the image">
 ```
 
@@ -178,7 +178,7 @@ Example:
 
 Example:
 
-```
+```html
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
@@ -189,7 +189,7 @@ Example:
 
 Example:
 
-```
+```html
 <div>
   <p>Content inside a div</p>
 </div>
@@ -199,7 +199,7 @@ Example:
 
 Example:
 
-```
+```html
 <p>This is <span>highlighted</span> text.</p>
 ```
 
@@ -211,7 +211,7 @@ Semantic HTML refers to using elements that convey meaning, aiding accessibility
 
 HTML forms facilitate user interaction:
 
-```
+```html
 html
 Copy code
 <form action="/submit" method="post">
