@@ -343,20 +343,290 @@ Often used for creating overlays, tooltips, or elements that need precise positi
 
 ## Layouts: Grid
 
+CSS Grid is a powerful tool for creating complex, two-dimensional layouts. 
+
+**Understanding the Grid Container and Grid Items:**
+
+- The grid container holds grid items.
+- Activate Grid Layout using `display: grid;`.
+
+```css
+.container {
+  display: grid;
+}
+```
+
+**Defining Rows and Columns:**
+
+- Use `grid-template-rows` and `grid-template-columns` to define the grid structure.
+- Utilize measurement units like `fr`, `%`, `auto`, etc., for flexible sizing.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Example of defining columns */
+  grid-template-rows: 100px auto; /* Example of defining rows */
+}
+```
+
+**`grid-gap` and `gap`:**
+
+- Create space between grid tracks or items.
+- Use shorthand property `gap` for both row and column gaps.
+
+```css
+.container {
+  display: grid;
+  gap: 10px; /* Example of setting the gap between rows and columns */
+}
+```
+
+**`grid-row` and `grid-column`:**
+
+- Position grid items in specific rows and columns.
+- Use shorthand `grid-area` for concise item placement.
+
+```css
+.item {
+  grid-row: 1 / 3; /* Example of placing an item in rows 1 to 3 */
+  grid-column: 2 / 4; /* Example of placing an item in columns 2 to 4 */
+}
+```
+
+**`justify-items` and `align-items`:**
+
+- Align grid items along the row and column axis.
+
+```css
+.container {
+  display: grid;
+  justify-items: center; /* Align items along the row axis */
+  align-items: center; /* Align items along the column axis */
+}
+```
+
+**Nested Grids:**
+
+- Create grids within grid items for more complex layouts.
+
+```css
+.item {
+  display: grid; /* Nested grid within a grid item */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+```
+
+**`grid-area` and Naming Grid Areas:**
+
+- Define named grid areas and place items within these areas.
+
+```css
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+```
+
+## CSS - Responsive Design
+
+See also - https://www.w3schools.com/html/html_responsive.asp
+
+Responsive web design is about creating web pages that look good on all devices!
+
+A responsive web design will automatically adjust for different screen sizes and viewports.
+
+**Viewport Basics**
+
+To create a responsive website, add the following `<meta>` tag to all your web pages:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+`width=device-width` Sets the width of the viewport to the device's width.
+
+`initial-scale=1.0` Sets the initial zoom level when the page is first loaded.
+
+### Viewport
+
+The viewport is the user's visible area of a web page.
+
+The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.
+
+Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.
+
+```css
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+}
+```
+
+## CSS - Typography and Fonts
+
+Fonts play a critical role in web design. They define the visual presentation of text content. 
+
+### Key font properties
+
+**Font Family**
+
+- The `font-family` property specifies the typeface or font for text.
+- Providing multiple font choices as fallbacks ensures better compatibility across devices and browsers.
+
+```css
+body {
+  font-family: "Arial", sans-serif;
+}
+```
+
+**Font Size and Units**
+
+- The `font-size` property determines the size of the text.
+- Different units (px, em, rem) provide flexibility in defining text size.
+
+```css
+h1 {
+  font-size: 2rem;
+}
+``` 
+
+**Font Weight and Style**
+
+- `font-weight` adjusts the thickness of the font (normal, bold).
+- `font-style` allows text to appear as italic or oblique.
+
+```css
+p {
+  font-weight: bold;
+  font-style: italic;
+}
+``` 
+
+**Text Decoration**
+
+- The `text-decoration` property adds visual effects to text, like underline, overline, or line-through.
+
+```css
+a {
+  text-decoration: underline;
+}
+``` 
+
+### Styling Text Effectively
+
+Beyond font properties, styling text effectively involves various techniques.
+
+**Line Height and Letter Spacing**
+
+- `line-height` adjusts the vertical spacing between lines.
+- `letter-spacing` controls the space between letters.
+
+```css
+p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+```
+
+**Text Alignment and Indentation**
+
+- `text-align` aligns text within its container (left, right, center, justify).
+- `text-indent` creates an indentation at the beginning of a paragraph.
+
+```css
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+```
+
+**Text Shadows and Text Transform**
+
+- `text-shadow` adds a shadow behind text for visual effect.
+- `text-transform` changes text case (uppercase, lowercase, capitalize).
+
+```css
+h1 {
+  text-shadow: 2px 2px 4px #000;
+  text-transform: uppercase;
+}
+```
+
+### Google Fonts or Custom Fonts Integration
+
+Font integration provides versatility and uniqueness to web designs.
+
+**Using Google Fonts**
+
+- Google Fonts offers a wide array of free fonts for web use.
+- Integration involves linking the font in the HTML file and applying it in CSS.
+
+Link - https://fonts.google.com/
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+```
+```css
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+```
+
+Or you can import the font via CSS file. 
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+```
+
+**Custom Fonts**:**
+
+- Custom fonts can be added via @font-face rule, allowing unique typography choices.
+
+```css
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/custom-font.woff2') format('woff2'),
+       url('path/to/custom-font.woff') format('woff');
+  /* Other font properties can be defined here */
+}
+
+body {
+  font-family: 'CustomFont', sans-serif;
+}
+```
+
+## CSS - Animations and Transitions
 
 
-3. Layouts:
-Floats and Positioning: Learn how to position elements using floats and absolute/relative positioning.
-Flexbox: Master this layout model for one-dimensional layouts.
-Grid: Understand and use CSS Grid for more complex, two-dimensional layouts.
-4. Responsive Design:
-Media Queries: Learn to create responsive designs for different screen sizes.
-Viewport: Understand the viewport meta tag and its implications for responsive design.
-5. Typography and Fonts:
-Font Properties: Explore different font properties and how to style text effectively.
-Google Fonts or Custom Fonts: Understand how to integrate and use different fonts.
-6. CSS Preprocessors:
-Learn about tools like SASS or LESS, which make CSS more maintainable and powerful.
+
+
+
+7. Colors, Gradients, and Images
+Color Properties: Utilize color properties—color, background-color, opacity, etc., for element styling.
+Gradients and Images: Implement gradients and background images using background properties.
+
+8. Transitions, Animations, and Transformations
+Transitions: Apply smooth transitions using transition properties for element changes.
+Animations: Use keyframes and animation properties for creating CSS animations.
+Transformations: Utilize transformations—scale, rotate, skew, translate—for element manipulation.
+
+6. CSS Frameworks and Grid Systems
+Bootstrap, Foundation: Explore popular CSS frameworks for rapid prototyping and responsive design.
+Custom Grid Systems: Learn to create custom grid systems using CSS for specific layout requirements.
+
 7. Animations and Transitions:
 Explore CSS animations and transitions to add interactivity and visual appeal to your websites.
 8. Responsive Frameworks:
