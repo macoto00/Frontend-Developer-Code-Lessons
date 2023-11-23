@@ -15,7 +15,7 @@
 
 ## Where to find a help? 
 
-GOOGLE, GOOLE, GOOGLE. 
+GOOGLE, GOOGLE, GOOGLE. 
 
 Try to help yourself, try to use the right words to find what you need. Try to be specific. Learn how to compose a sentence to achieve a desired goal, to find what you are looking for. Your best friend should be google, relevant pages like: 
 
@@ -212,8 +212,6 @@ Semantic HTML refers to using elements that convey meaning, aiding accessibility
 HTML forms facilitate user interaction:
 
 ```html
-html
-Copy code
 <form action="/submit" method="post">
     <input type="text" name="username" placeholder="Username"><br>
     <input type="password" name="password" placeholder="Password"><br>
@@ -225,7 +223,37 @@ Copy code
 `<input>` Creates input fields of different types like text, password, email, etc.
 `<textarea>`, `<select>`, `<button>` Other form elements for larger text inputs, dropdowns, and buttons.
 
-## Block 7: HTML5 Features
+## Block 7: HTML5 Tables
+
+HTML tables are a fundamental part of web development used to display data in rows and columns. They organize content in a structured format, making it easier for users to understand and navigate information.
+
+### Basic Structure of an HTML Table
+
+Tables are created using a combination of HTML elements: `<table>`, `<tr>`, `<th>`, and `<td>`.
+
+`<table>`: Defines the start of the table.
+`<tr>`: Stands for "table row" and is used to create rows in the table.
+`<th>`: Represents table headers, typically placed within the `<tr>` element to define column headings.
+`<td>`: Stands for "table data" and is used to create cells containing regular content.
+
+### Creating a Simple Table
+
+```html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+    <th>Header 3</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+    <td>Data 3</td>
+  </tr>
+</table>
+```
+
+## Block 8: HTML5 Features
 
 Introduce newer HTML5 features:
 
@@ -233,17 +261,9 @@ Audio and Video: `<audio>` and `<video>` tags for embedding media content.
 Canvas and SVG: Elements for drawing graphics and creating scalable vector graphics.
 Local Storage and Session Storage: localStorage and sessionStorage for storing data on the client-side.
 
-## Block 8: Best Practices
+## Block 9: Browser Developer Tools
 
-Discuss best practices:
-
-Indentation and Formatting: Maintain clean, readable code.
-Accessibility: Use semantic elements for better accessibility.
-Separation of Concerns: Keep HTML separate from CSS and JavaScript (use external files).
-
-## Block 9: Browser Compatibility
-
-Highlight the importance of testing and ensuring compatibility with different browsers to maintain consistent rendering and functionality.
+Google Chrome - F12 or right click and inspect.
 
 ## Block 10: Resources and Further Learning
 
