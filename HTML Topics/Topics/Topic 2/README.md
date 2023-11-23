@@ -43,4 +43,5 @@ For your work, try to do a research for:
 
 ### This is your task
 
-![lessonWork](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/79947182-38b0-4f7b-b3a5-35c7ed184e22)
+![screenOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/80853d92-bed5-4636-b231-f4c54fe6c540)
+
