@@ -4,228 +4,332 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/x-icon" href="images/icon/fire.png">
-    <title>My Simple HTML Website</title>
+    <title>HTML Basic Playground</title>
 </head>
 
 <body>
 
-    <!-- header -->
-    <header>
+    <!-- headers -->
+    <div class="headers">
+        <h1>Toto je Header 1</h1>
+        <h2>Toto je Header 2</h2>
+        <h3>Toto je Header 3</h3>
+        <h4>Toto je Header 4</h4>
+        <h5>Toto je Header 5</h5>
+        <h6>Toto je Header 6</h6>
+    </div>
+    
+    <br><br>
 
-        <!-- navbar -->
-        <nav>
+    <!-- paragraphs with text formatting elements -->
+    <div class="paragraphs">
+        <h1>Toto je ukázka textů</h1>
+        <p>Toto je prostý text</p>
+        <p>Lorem <s>ipsum</s> dolor <strong>sit</strong> amet <i>consectetur</i> adipisicing <em>elit</em>. Enim
+            <u>illum</u> aperiam <s>quisquam</s> delectus <sub>aspernatur</sub>
+            cumque <b>placeat</b> velit <small>esse</small> quaerat doloribus officiis doloremque cupiditate amet
+            architecto, dolorem qui
+            ratione inventore expedita?
+        </p>
+    </div>
+    
+    <br><br>
+
+    <!-- anchor -->
+    <div class="anchor">
+        <h1>Toto je ukázka kotvy</h1>
+        <a href="">Sloužím jako kotva</a>
+    </div>
+    
+    <br><br>
+
+    <!-- image -->
+    <div class="image">
+        <h1>Toto je ukázka obrázku</h1>
+        <img src="./images/dummyImages/autumnOne.jpg" alt="">
+    </div>
+    
+    <br><br>
+
+    <!-- lists -->
+    <div class="lists">
+        <div class="unordered-list">
+            <h1>Toto je neseřazený list</h1>
             <ul>
-                <li><a href="index.html">Domů</a></li>
-                <li><a href="images.html">Obrázky</a></li>
-                <li><a href="people.html">Lidé</a></li>
-                <li>
-                    <p>---</p>
-                </li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#testimonials">Reference</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li>první bod</li>
+                <li>druhý bod</li>
+                <li>třetí bod</li>
+                <li>čtvrtý bod</li>
+                <li>pátý bod</li>
             </ul>
-        </nav>
-    </header>
+        </div>
+        <div class="ordered-list">
+            <h1>Toto je seřazený list</h1>
+            <ol>
+                <li>první bod</li>
+                <li>druhý bod</li>
+                <li>třetí bod</li>
+                <li>čtvrtý bod</li>
+                <li>pátý bod</li>
+            </ol>
+        </div>
+    </div>
+    
+    <br><br>
 
-    <main>
-        <!-- intro section -->
-        <section class="intro">
-            <div class="content">
-                <h1>MOJE ÚŽASNÉ STRÁNKY</h1>
-                <p>Zábava, Star Wars, Meme</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi similique recusandae sequi fugiat
-                    nesciunt dolorem libero placeat a cum aperiam. Nulla cupiditate ut repudiandae ratione saepe animi
-                    perspiciatis et rerum.</p>
-                <p>Sleduj mě na sociálních sítích</p>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-            </div>
-        </section>
+    <!-- inputs -->
+    <div class="inputs">
+        <h1>Toto je ukázka různých inputů</h1>
+        <input type="button"> tlačítko
+        <br>
+        <input type="checkbox"> checkbox
+        <br>
+        <input type="color"> barva
+        <br>
+        <input type="date"> datum
+        <br>
+        <input type="datetime-local"> datum a čas
+        <br>
+        <input type="email"> email
+        <br>
+        <input type="file"> soubor
+        <br>
+        <input type="hidden"> skryté
+        <br>
+        <input type="image"> obrázek
+        <br>
+        <input type="month"> měsíc
+        <br>
+        <input type="number"> číslo
+        <br>
+        <input type="password"> heslo
+        <br>
+        <input type="radio"> radio
+        <br>
+        <input type="range"> rozptyl
+        <br>
+        <input type="reset"> reset
+        <br>
+        <input type="search"> hledání
+        <br>
+        <input type="submit"> odeslání
+        <br>
+        <input type="tel"> telefon
+        <br>
+        <input type="text"> text
+        <br>
+        <input type="time"> čas
+        <br>
+        <input type="url"> url
+        <br>
+        <input type="week"> týden
+    </div>
+    
+    <br><br>
 
-        <!-- about section -->
-        <section class="about">
-            <div class="content">
-                <h1>O mně</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt quisquam commodi
-                    perspiciatis beatae, distinctio unde, exercitationem consequuntur sunt repellendus illo maiores quod
-                    aliquid reprehenderit? Pariatur incidunt quas quae quasi?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt quisquam commodi
-                    perspiciatis beatae, distinctio unde, exercitationem consequuntur sunt repellendus illo maiores quod
-                    aliquid reprehenderit? Pariatur incidunt quas quae quasi?</p>
-            </div>
-        </section>
+    <!-- forms -->
+    <!-- simple form -->
+    <div class="simple-form">
+        <h1>Toto je jednoduchý formulář</h1>
+        <form action="" method="">
+            <h2>Jednoduchý formulář</h2>
+            <label for="name">Jméno
+                <input type="text" name="name" value="Tomáš Nakódovaný">
+            </label>
+            <br>
+            <br>
+            <label for="email">Email
+                <input type="email" name="email" placeholder="tomas@nakodovany.cz">
+            </label>
+            <br>
+            <br>
+            <label for="password">Heslo
+                <input type="password" name="password">
+            </label>
+            <br>
+            <br>
+            <button type="submit">Odeslat</button>
+        </form>
+    </div>
+    
+    <br><br>
 
-        <!-- articles section -->
-        <section class="articles">
-            <div class="articles-header">
-                <h1>Články, které mám rád</h1>
-                <p>Zde naleznete mé oblíbené texty.</p>
-            </div>
-            <article class="first-article">
-                <h2>První článek</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae, error sequi, possimus
-                    tempora illo architecto facilis quisquam culpa esse alias cupiditate quod necessitatibus, eligendi
-                    adipisci tempore ab? Quas, nam!</p>
-            </article>
-            <article class="second-article">
-                <h2>Druhý článek</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Integer lacinia.
-                    Mauris tincidunt sem sed arcu. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est.
-                    Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Etiam bibendum elit eget erat.
-                    Nulla non arcu lacinia neque faucibus fringilla. Integer imperdiet lectus quis justo. Mauris
-                    suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel
-                    metus.</p>
-                <p>Et harum quidem rerum facilis est et expedita distinctio. Fusce consectetuer risus a nunc. Fusce
-                    wisi. Nulla non arcu lacinia neque faucibus fringilla. Cum sociis natoque penatibus et magnis dis
-                    parturient montes, nascetur ridiculus mus. Etiam egestas wisi a erat. Nulla non arcu lacinia neque
-                    faucibus fringilla. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Sed vel
-                    lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Etiam ligula pede, sagittis
-                    quis, interdum ultricies, scelerisque eu. Nunc dapibus tortor vel mi dapibus sollicitudin. Nullam
-                    sit amet magna in magna gravida vehicula.</p>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-                    consequatur aut perferendis doloribus asperiores repellat. Curabitur ligula sapien, pulvinar a
-                    vestibulum quis, facilisis vel sapien. Nulla turpis magna, cursus sit amet, suscipit a, interdum id,
-                    felis. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim
-                    ipsum id lacus. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque habitant morbi
-                    tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tellus odio, dapibus id
-                    fermentum quis, suscipit id erat. Etiam neque. Nulla accumsan, elit sit amet varius semper, nulla
-                    mauris mollis quam, tempor suscipit diam nulla vel leo. Maecenas fermentum, sem in pharetra
-                    pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus.</p>
-            </article>
-            <article class="third-article">
-                <h2>Třetí článek</h2>
-                <p>Aenean placerat. Curabitur sagittis hendrerit ante. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aliquam ornare wisi eu metus. Nullam
-                    dapibus fermentum ipsum. Nullam rhoncus aliquam metus. Praesent dapibus. Curabitur sagittis
-                    hendrerit ante. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Etiam egestas wisi a
-                    erat. Mauris elementum mauris vitae tortor. Etiam quis quam. Etiam dui sem, fermentum vitae,
-                    sagittis id, malesuada in, quam. Vivamus porttitor turpis ac leo. Nullam faucibus mi quis velit.
-                    Aenean placerat. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Nullam dapibus
-                    fermentum ipsum. In dapibus augue non sapien. Curabitur vitae diam non enim vestibulum interdum.</p>
-                <p>Fusce nibh. Etiam dictum tincidunt diam. Sed ac dolor sit amet purus malesuada congue. Etiam commodo
-                    dui eget wisi. Duis condimentum augue id magna semper rutrum. Etiam bibendum elit eget erat. Nulla
-                    non arcu lacinia neque faucibus fringilla. Duis pulvinar. Nulla accumsan, elit sit amet varius
-                    semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Duis viverra diam non justo.
-                    Fusce consectetuer risus a nunc. Integer vulputate sem a nibh rutrum consequat. Sed convallis magna
-                    eu sem. Fusce tellus.</p>
-            </article>
-        </section>
+    <!-- complex form -->
+    <div class="complex-form">
+        <h1>Toto je složitější formulář</h1>
+        <form action="" method="">
+            <h2>Složitější formulář</h2>
+            <fieldset>
+                <legend>Složitější formulář</legend>
 
-        <!-- survey section -->
-        <section class="survey">
-            <div class="survey-form">
-                <h1>Anketa</h1>
-                <form action="">
-                    <fieldset>
-                        <legend>Star Wars</legend>
-                        <p>Máte rádi Star Wars?</p>
-                        <label><input type="radio" name="star-wars" value="yas"> Ano</label><br>
-                        <label><input type="radio" name="star-wars" value="no"> Ne</label><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Memes</legend>
-                        <p>Máte rádi memes?</p>
-                        <label><input type="radio" name="meme" value="yes"> Ano</label><br>
-                        <label><input type="radio" name="meme" value="no"> Ne</label><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Zábava</legend>
-                        <p>Máte rádi zábavu?</p>
-                        <label><input type="radio" name="fun" value="yes"> Ano</label><br>
-                        <label><input type="radio" name="fun" value="no"> Ne</label><br>
-                    </fieldset>
-                    <br>
-                    <button type="submit">Odeslat</button>
-                </form>
-            </div>
-        </section>
-
-        <!-- FAQ section -->
-        <section class="faq" id="faq">
-            <div class="content">
-                <h1>Často kladené otázky</h1>
-                <p>Zde naleznete nejčastěji kladené otázky a odpovědi na tyto otázky.</p>
-                <h3>Máš rád meme?</h3>
-                <p>Ano, mám rád meme.</p>
-                <h3>Baví tě programovat?</h3>
-                <p>Ano, baví mě programovat.</p>
-                <h3>Uděláš mi web?</h3>
-                <p>Ano, udělám ti web.</p>
-                <h3>Kolik to bude stát?</h3>
-                <p>Cena je různá a odvíjí se od požadavků a náročnosti.</p>
-            </div>
-        </section>
-
-        <!-- testimonials section -->
-        <section class="testimonials" id="testimonials">
-            <div class="content">
-                <h1>Reference mých zákazníků</h1>
-                <p>Zde naleznete reference mých zákazníků.</p>
-                <div class="testimonials-item">
-                    <img src="images/avatars/manBeard.png" alt="Man with beard." width="100" height="100">
-                    <h3>John Doe</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque neque dolorum vitae esse nisi eos
-                        reprehenderit quasi quos! Rem officia facilis iure, quae minus voluptates. Odit labore nesciunt
-                        dolorum voluptate.</p>
-                </div>
-                <div class="testimonials-item">
-                    <img src="images/avatars/girlBlue.png" alt="Girl in blue." width="100" height="100">
-                    <h3>Jane Doe</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque neque dolorum vitae esse nisi eos
-                        reprehenderit quasi quos! Rem officia facilis iure, quae minus voluptates. Odit labore nesciunt
-                        dolorum voluptate.</p>
-                </div>
-                <div class="testimonials-item">
-                    <img src="images/avatars/panda.png" alt="Panda" width="100" height="100">
-                    <h3>Josh Doe</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque neque dolorum vitae esse nisi eos
-                        reprehenderit quasi quos! Rem officia facilis iure, quae minus voluptates. Odit labore nesciunt
-                        dolorum voluptate.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- contact section -->
-        <section class="contact" id="contact">
-            <div class="content">
-                <div class="contact-info">
-                    <h1>Kontakt</h1>
-                    <p>Máš něco na srdci? Neváhej mě kontaktovat!</p>
-                    <p>Lokalita: Praha</p>
-                    <p>Email: tomas@naprogramovany.cz</p>
-                    <p>telefon: +420 123 456 789</p>
-                </div>
-            </div>
-            <div class="contact-form">
-                <form action="">
+                <fieldset>
+                    <legend>Osobní informace</legend>
                     <label for="name">Jméno:</label>
                     <input type="text" id="name" name="name" required><br><br>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br><br>
 
-                    <label for="subject">Téma:</label>
-                    <input type="number" id="subject" name="subject" required><br><br>
+                    <label for="age">Věk:</label>
+                    <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+                </fieldset>
 
-                    <label for="message">Zpráva:</label>
-                    <textarea name="message" id="message" cols="30" rows="5"
-                        placeholder="Ahoj, rád bych se zeptal..."></textarea><br><br>
+                <fieldset>
+                    <legend>Preference</legend>
+                    <label for="color">Oblíbená barva:</label>
+                    <input list="colors" id="color" name="color">
+                    <datalist id="colors">
+                        <option value="Red">
+                        <option value="Blue">
+                        <option value="Green">
+                        <option value="Yellow">
+                        <option value="Other">
+                    </datalist><br><br>
 
-                    <button type="submit">Odeslat</button>
-                </form>
-            </div>
-        </section>
-    </main>
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" rows="4" cols="50"
+                        placeholder="Napiš něco o sobě..."></textarea><br><br>
+                </fieldset>
 
-    <!-- footer -->
-    <footer>
-        <p>&copy; Moje stránky - 2023</p>
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
-    </footer>
+                <fieldset>
+                    <legend>Volitelné</legend>
+                    <label>Vyber jazyk:</label>
+                    <select name="language">
+                        <option value="English">Anglický</option>
+                        <option value="Spanish">Španělský</option>
+                        <option value="French">Francouzský</option>
+                        <option value="German">Německý</option>
+                    </select><br><br>
+
+                    <label for="agree">Souhlas s podmínkami:</label>
+                    <br><br>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">Souhlasím s podmínkami.</label><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Oblíbené zvíře</legend>
+                    <label><input type="checkbox" name="animal" value="Dog"> Pes</label><br>
+                    <label><input type="checkbox" name="animal" value="Cat"> Kočka</label><br>
+                    <label><input type="checkbox" name="animal" value="Bird"> Pták</label><br>
+                    <label><input type="checkbox" name="animal" value="Rabbit"> Králík</label><br>
+                    <label><input type="checkbox" name="animal" value="Fish"> Ryba</label><br>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Pohlaví</legend>
+                    <label><input type="radio" name="gender" value="Male"> Muž</label><br>
+                    <label><input type="radio" name="gender" value="Female"> Žena</label><br>
+                </fieldset><br>
+
+                <button type="submit">Odeslat</button>
+            </fieldset>
+        </form>
+    </div>
+    
+    <br><br>
+
+    <!-- simple table -->
+    <div class="simple-table">
+        <h1>Toto je ukázka jednoduché tabulky</h1>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+
+    <!-- complex table -->
+    <div class="complex-table">
+        <h1>Toto je ukázka komplexnější tabulky</h1>
+        <table>
+            <caption>Přehled měsíčních plateb</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Měsíc</th>
+                    <th colspan="2">Produkt A</th>
+                    <th colspan="2">Produkt B</th>
+                </tr>
+                <tr>
+                    <th>Jenotek prodáno</th>
+                    <th>Návratnost</th>
+                    <th>Jednotek prodáno</th>
+                    <th>Návratnost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leden</td>
+                    <td>150</td>
+                    <td>$3000</td>
+                    <td>200</td>
+                    <td>$4000</td>
+                </tr>
+                <tr>
+                    <td>Únor</td>
+                    <td>180</td>
+                    <td>$3600</td>
+                    <td>220</td>
+                    <td>$4400</td>
+                </tr>
+                <tr>
+                    <td>Březen</td>
+                    <td>170</td>
+                    <td>$3400</td>
+                    <td>210</td>
+                    <td>$4200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Celkem</td>
+                    <td>500</td>
+                    <td>$10000</td>
+                    <td>630</td>
+                    <td>$12600</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <br><br>
+
+    <!-- features -->
+    <!-- audio -->
+    <div class="audio">
+        <h1>Toto je ukázka audia</h1>
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <br><br>
+
+    <!-- video -->
+    <div class="video">
+        <h1>Toto je ukázka videa</h1>
+        <video src="mov_bbb.mp4" type="video/mp4" width="400" controls></video>
+    </div>
+    
+    <br><br>
+
+    <!-- youtube -->
+    <div class="youtube">
+        <h1>Toto je ukázka Youtube videa</h1>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+    </div>
 
 </body>
 

@@ -1,31 +1,75 @@
-# HTML Topic 3 - Simple HTML website
+# HTML Topic 2 - Basic Playground
 
-Everything together, like when a cat and a dog were cooking a cake AKA simple HTML Website.
+Now we will practice everything we have learned so far, or from theory to practice. You will draw on the previous lesson for your work. I'll show you a sample project, then the independent work will come. 
 
-# My Turn
+# What to use? Do you remember them all?
 
-I'll show to you how to make a multi-page website. You can watch or you can code with me.
+- `<!DOCTYPE html>`
+- `<head>`
+- `<title>`
+- `<body>`
+- `<p>`
+- `<h1>` - `<h6>`
+- `<a>`
+- `<img>`
+- `<ul>`, `<ol>`, `<li>`
+- `<div>`
+- `<span>`
+- `<header>`
+- `<footer>`
+- `<nav>`
+- `<section>`
+- `<main>`
+- `<form>`
+- `<input>`
+- `<button>`
+- `<audio>`
+- `<video>`
+- or **GOOGLE**
 
-# Your Turn - The task is to create a simle HTML multi-page website
+# My turn
+
+I'll start. You can watch or you can code with me.
+
+# Your turn
+
+Now is your time to practice all you can. Don't worry if you don't catch up. You can complete your work later whenever you want.
 
 For your work, try to do a research for:
 
-- something like HTML website favicon 
-- something like HTML how to set width and height to an image
-- where to get the icons? Wherever you want, you can try Flaticon (https://www.flaticon.com/)
+- HTML text formatting
+- HTML form fieldset
+- HTML form label
 
-## Webpage Favicon
+### HTML Task 1 - Headers
 
-![webPageTab](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0bb50233-ba5a-408a-84b6-7835be474cfe)
+![screenOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/80853d92-bed5-4636-b231-f4c54fe6c540)
 
-## Index Page
+### HTML Task 2 - Texts 💪
 
-![webpageOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/8d9f50e3-0e6c-46a2-9495-600026b6e6ce)
 
-## Image Page
+### HTML Task 3 - Anchor
 
-![webpageTwo](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/753c00f2-3679-48e5-b458-e32a6de82015)
 
-## People Page
+### HTML Task 4 - Image
 
-![webpageThree](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/025e1402-dc18-405a-b559-c9f9f26e39dc)
+
+### HTML Task 5 - Lists
+
+
+### HTML Task 6 - Inputs
+
+
+### HTML Task 7 - Simple Form
+
+
+### HTML Task 8 - Complex Form 💪💪
+
+
+### HTML Task 9 - Simple Table
+
+
+### HTML Task 10 - Complex Table 💪💪
+
+
+### HTML Task 11 - Features
