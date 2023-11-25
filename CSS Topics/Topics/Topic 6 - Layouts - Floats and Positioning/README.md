@@ -1,4 +1,4 @@
-# CSS Topic 4 - Layouts: Floats and Positioning
+# CSS Topic 6 - Layouts: Floats and Positioning
 
 ## Floats
 

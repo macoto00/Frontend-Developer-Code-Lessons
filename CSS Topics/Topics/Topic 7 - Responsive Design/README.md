@@ -1,4 +1,4 @@
-# CSS Topic 7 - Responsive Design
+# CSS Topic 9 - Responsive Design
 
 See also - https://www.w3schools.com/html/html_responsive.asp
 

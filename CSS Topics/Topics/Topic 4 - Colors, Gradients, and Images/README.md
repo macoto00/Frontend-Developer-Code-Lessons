@@ -1,4 +1,4 @@
-# CSS Topic 9 - Colors, Gradients, and Images
+# CSS Topic 4 - Colors, Gradients, and Images
 
 Colors, gradients, and images are essential tools in web design, used to enhance aesthetics, improve user experience, convey information, and create visually engaging and memorable websites.
 

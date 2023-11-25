@@ -1,4 +1,4 @@
-# CSS Topic 5 - Layouts: Flexbox
+# CSS Topic 7 - Layouts: Flexbox
 
 **Flex Container `display: flex;`:** 
 

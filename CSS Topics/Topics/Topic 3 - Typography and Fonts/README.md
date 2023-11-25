@@ -1,4 +1,4 @@
-# CSS Topic 8 - Typography and Fonts
+# CSS Topic 3 - Typography and Fonts
 
 Fonts play a critical role in web design. They define the visual presentation of text content. 
 
