@@ -43,44 +43,44 @@ For your work, try to do a research for:
 
 ### HTML Task 1 - Headers
 
-![screenOne](url)
+![Headers](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/header.png)
 
 ### HTML Task 2 - Texts 💪
 
-![screenOne](url)
+![Texts](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/text.png)
 
 ### HTML Task 3 - Anchor
 
-![screenOne](url)
+![Anchor](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/anchor.png)
 
 ### HTML Task 4 - Image
 
-![screenOne](url)
+![Image](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/image.png)
 
 ### HTML Task 5 - Lists
 
-![screenOne](url)
+![Lists](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/list.png)
 
 ### HTML Task 6 - Inputs
 
-![screenOne](url)
+![Inputs](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/input.png)
 
 ### HTML Task 7 - Simple Form
 
-![screenOne](url)
+![Simple Form](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/simpleForm.png)
 
 ### HTML Task 8 - Complex Form 💪💪
 
-![screenOne](url)
+![Complex Form](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/complexForm.png)
 
 ### HTML Task 9 - Simple Table
 
-![screenOne](url)
+![Simple Table](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/simpleTable.png)
 
 ### HTML Task 10 - Complex Table 💪💪
 
-![screenOne](url)
+![Complex Table](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/complexTable.png)
 
 ### HTML Task 11 - Features
 
-![screenOne](url)
+![Features](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/HTML%20Topics/Topics/Topic%203/Workshops/tasks/features.png)
