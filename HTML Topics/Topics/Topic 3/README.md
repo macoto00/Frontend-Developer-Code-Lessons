@@ -1,4 +1,4 @@
-# HTML Topic 2 - Basic Playground
+# HTML Topic 3 - Basic Playground
 
 Now we will practice everything we have learned so far, or from theory to practice. You will draw on the previous lesson for your work. I'll show you a sample project, then the independent work will come. 
 
@@ -43,33 +43,44 @@ For your work, try to do a research for:
 
 ### HTML Task 1 - Headers
 
-![screenOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/80853d92-bed5-4636-b231-f4c54fe6c540)
+![screenOne](url)
 
 ### HTML Task 2 - Texts 💪
 
+![screenOne](url)
 
 ### HTML Task 3 - Anchor
 
+![screenOne](url)
 
 ### HTML Task 4 - Image
 
+![screenOne](url)
 
 ### HTML Task 5 - Lists
 
+![screenOne](url)
 
 ### HTML Task 6 - Inputs
 
+![screenOne](url)
 
 ### HTML Task 7 - Simple Form
 
+![screenOne](url)
 
 ### HTML Task 8 - Complex Form 💪💪
 
+![screenOne](url)
 
 ### HTML Task 9 - Simple Table
 
+![screenOne](url)
 
 ### HTML Task 10 - Complex Table 💪💪
 
+![screenOne](url)
 
 ### HTML Task 11 - Features
+
+![screenOne](url)
