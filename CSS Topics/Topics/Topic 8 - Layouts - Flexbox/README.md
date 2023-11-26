@@ -75,3 +75,55 @@
   order: 1;
 }
 ```
+
+## Your Tasks
+
+Mainly you will work witch this simple HTML:
+
+```html
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+```
+
+You will need to apply more Attributes to achieve desired example.
+
+img
+
+### Basic Flex Container
+
+img
+
+### Flex Direction
+
+img
+
+img
+
+img
+
+### Justify Content
+
+img
+
+### Flex Grow, Shrink, Basis
+
+img
+
+### Align Self
+
+img
+
+### Changing Order
+
+img
+
+### Complex Flex Container
+
+img
+
+### Nested Flexbox
+
+img

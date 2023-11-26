@@ -1,0 +1,74 @@
+/* items */
+
+.item {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.item-one {
+    background-color: blue;
+}
+
+.item-two {
+    background-color: red;
+}
+
+.item-three {
+    background-color: green;
+}
+
+/* containers */
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-five {
+    display: flex;
+    align-items: center;
+}
+
+.container-five .item {
+    flex: 1;
+}
+
+.container-six {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-six .item:nth-child(2) {
+    align-self: flex-end;
+}
+
+.container-seven {
+    display: flex;
+}
+
+.container-seven .item:nth-child(2) {
+    order: -1;
+    /* Move the second item to the beginning */
+}
+
+/* complex tasks */
+

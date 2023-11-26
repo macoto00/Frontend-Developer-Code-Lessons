@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}
+
+.item-one {
+    background-color: lightblue;
+}
+
+.item-two {
+    background-color: lightcoral;
+}
+
+.item-three {
+    background-color: lightseagreen;
+}
