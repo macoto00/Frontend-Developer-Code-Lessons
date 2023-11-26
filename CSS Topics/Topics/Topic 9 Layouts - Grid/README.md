@@ -1,4 +1,4 @@
-# CSS Topic 8 - Layouts: Grid
+# CSS Topic 9 - Layouts: Grid
 
 CSS Grid is a powerful tool for creating complex, two-dimensional layouts. 
 
