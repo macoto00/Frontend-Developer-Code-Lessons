@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* whole document */
+
+h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+h1 span {
+    color: red;
+    font-weight: 800;
+}
+
+p {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+/* about section */
+
+.about-header,
+.about-header span {
+    font-size: 4rem;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'EB Garamond', serif;
+}
+
+.about p {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* backgrounds */
+
+.bg-green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.bg-blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to right, red, blue);
+    width: 100px;
+    height: 100px;
+}
+
+.bg-image {
+    background-image: url('images/avatars/bear.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}

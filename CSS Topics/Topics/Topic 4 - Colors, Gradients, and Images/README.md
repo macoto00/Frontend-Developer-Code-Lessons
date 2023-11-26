@@ -118,3 +118,111 @@ Stable Difusion - https://stablediffusionweb.com/#ai-image-generator
 
 Leonardo AI - https://app.leonardo.ai/
 
+## Your Tasks
+
+Google Fonts:
+
+- Raleway
+- EB Garamond 
+
+For your work, try to do a research for:
+
+- How To Create a Full Height Image
+
+### Styling Header
+
+```html
+<!-- header section -->
+<section>
+  <h1><span>Vítejte</span> na mých stránkách</h1>
+</section>
+```
+
+img
+
+### Styling paragraphs
+
+```html
+<!-- paragraphs section -->
+<section>
+  <p class="red">Místo, kde se učí programovat.</p>
+  <p class="blue">Pokud máte otázky, kontaktujte mě.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+    dolore explicabo excepturi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+    dolore explicabo excepturi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+    dolore explicabo excepturi?</p>
+</section>
+```
+
+img
+
+### Styling All Together
+
+```html
+<!-- paragraphs section -->
+        <section>
+            <div class="info">
+                <h1><span>Vítejte</span> na mých stránkách</h1>
+                <p class="red">Místo, kde se učí programovat.</p>
+                <p class="blue">Pokud máte otázky, kontaktujte mě.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+            </div>
+        </section>
+```
+
+img
+
+### Styling Differently
+
+```html
+<!-- paragraphs section -->
+        <section>
+            <div class="about">
+                <h1><span>Vítejte</span> na mých stránkách</h1>
+                <h1 class="about-header"><span>Vítejte</span> na mých stránkách</h1>
+                <p>Místo, kde se učí programovat.</p>
+                <p>Pokud máte otázky, kontaktujte mě.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum quidem quod dolorem cum, veritatis
+                    quasi minima vitae, reiciendis quas necessitatibus. Nemo consequuntur voluptatem nobis libero ex
+                    dolore explicabo excepturi?</p>
+            </div>
+        </section>
+```
+
+img
+
+### Backgrounds
+
+```html
+<!-- backgrounds -->
+        <section>
+            <div class="bg-green"></div>
+            <br>
+            <div class="bg-blue"></div>
+            <br>
+            <div class="bg-gradient"></div>
+            <br>
+            <div class="bg-image"></div>
+        </section>
+```
+
+img
