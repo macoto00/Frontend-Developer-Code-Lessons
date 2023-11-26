@@ -44,3 +44,62 @@ p {
     margin: auto;
 }
 ```
+
+## Your Turn
+
+Time for practice!
+
+### Example Box
+
+```html
+<!-- example box -->
+<div class="box-example"></div>
+```
+
+img
+
+### Example Box with padding
+
+```html
+<!-- example box with padding -->
+<div class="box-example padding-example">Padding Example</div>
+```
+
+img
+
+### Example Box with different border
+
+```html
+<!-- example box with different border -->
+<div class="box-example border-example">Border Example</div>
+```
+
+img
+
+### Example Box with margin
+
+```html
+<!-- example box with margin -->
+<div class="box-example margin-example">Margin Example</div>
+<div class="box-example margin-example">Margin Example</div>
+```
+
+img
+
+### Example Box with combined styling
+
+```html
+<!-- example box with combined styling -->
+<div class="box-example combined-example">Combined Example</div>
+```
+
+img
+
+### More examples
+
+```html
+<!-- more examples -->
+<div class="box-example inner-box1">Inner Box 1</div>
+<div class="box-example inner-box2">Inner Box 2</div>
+<div class="box-example inner-box3">Inner Box 3</div>
+```
