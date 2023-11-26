@@ -2,6 +2,8 @@
 
 Do you remember your first HTML multi-page [Website](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/HTML%20Topics/Topics/Topic%204)? 
 
+This was quite a ride, huh?
+
 Let's do something far more shiny.
 
 ## This will be your task
