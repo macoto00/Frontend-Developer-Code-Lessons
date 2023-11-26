@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Three columns */
+    grid-template-rows: auto;
+    /* Auto rows */
+    gap: 10px;
+    margin: 2rem;
+}
+
+.item {
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}

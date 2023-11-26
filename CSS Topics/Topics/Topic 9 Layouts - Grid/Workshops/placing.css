@@ -1,0 +1,42 @@
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.item {
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+}
+
+.item:nth-child(2) {
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+}

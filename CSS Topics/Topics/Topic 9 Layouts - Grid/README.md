@@ -91,3 +91,40 @@ CSS Grid is a powerful tool for creating complex, two-dimensional layouts.
   grid-area: header;
 }
 ```
+
+## Your Tasks
+
+“The Grid. A digital frontier. I tried to picture clusters of information as they moved through the computer. What did they look like? Ships, motorcycles? Were the circuits like freeways? I kept dreaming of a world I thought I'd never see. And then, one day I got in...”
+― Kevin Flynn
+
+### Basic Grid
+
+img
+
+### Setting Grid Gaps
+
+img
+
+### Placing Grid Items
+
+img
+
+### Justify and Align Items
+
+img
+
+### Nested Grids
+
+img
+
+### Named Grid Areas 
+
+img
+
+### Ultra Grid 💪
+
+img
+
+### Ultra Grid Vol. 2  💪
+
+img
