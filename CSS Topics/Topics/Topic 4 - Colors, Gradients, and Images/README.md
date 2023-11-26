@@ -120,6 +120,8 @@ Leonardo AI - https://app.leonardo.ai/
 
 ## Your Tasks
 
+Time for practice!
+
 Google Fonts:
 
 - Raleway
