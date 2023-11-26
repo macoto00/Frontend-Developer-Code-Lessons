@@ -138,3 +138,51 @@ Example:
 }
 ```
 
+## Your Tasks
+
+“Transformations, roll out!”
+― "Cascading Prime"
+
+### Basic Transition
+
+img
+
+### Scale Transformation on Hover
+
+img
+
+### Rotate Transformation on Hover
+
+img
+
+### Translate Transformation on Hover
+
+img
+
+### Skew Transformation on Hover
+
+img
+
+### Keyframe Animation
+
+img
+
+### Combining Transformations
+
+img
+
+### Multiple Transformations with Keyframes 💪
+
+img
+
+### Complex Example 💪💪
+
+img
+
+### Solar System 💪💪💪
+
+Just take a peek look at this monstrosity - https://codepen.io/juliangarnier/pen/krNqZO
+
+Don't worry. We will have something far simple, yet a hard task. 
+
+img
