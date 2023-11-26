@@ -1,0 +1,25 @@
+.container {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+    width: 40%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 40%;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.content {
+    margin: 20px;
+    text-align: center;
+}

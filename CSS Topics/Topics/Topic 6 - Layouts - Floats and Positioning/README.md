@@ -63,3 +63,80 @@ Often used for creating overlays, tooltips, or elements that need precise positi
   /* Other styling properties */
 }
 ```
+
+## Your Turn
+
+Time for some fun!
+
+For your work, try to do a research for:
+
+- **Never Ending Question** How to center a div
+
+### Float Elements
+
+```html
+<div class="container">
+    <div class="float-left">Float Left</div>
+    <div class="float-right">Float Right</div>
+    <div class="content">Other content wrapping around floated elements.</div>
+    <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste magni veniam necessitatibus
+        enim earum perspiciatis provident laborum porro quas a sint consequuntur ea excepturi sequi, quod eaque
+        reprehenderit voluptas animi?</div>
+</div>
+```
+
+img
+
+### Relative & Absolute Positioning
+
+```html
+<div class="relative-pos">Relative Positioning</div>
+
+<br>
+
+<div class="container">
+    <div class="parent">
+        <div class="child absolute-pos">Absolute Positioning</div>
+    </div>
+</div>
+```
+
+img
+
+### Mix of Float and Positioning
+
+```html
+<div class="container">
+    <div class="float-left">Float Left</div>
+    <div class="absolute-pos">Absolute Positioning</div>
+    <div class="content">Other content wrapping around floated and positioned elements.</div>
+</div>
+```
+
+img
+
+### Nested Positioned Elements
+
+```html
+<div class="container">
+    <div class="parent relative-pos">
+        <div class="child absolute-pos">Child 1</div>
+        <div class="child absolute-pos-two">Child 2</div>
+        <div class="child absolute-pos-three">Child 3</div>
+    </div>
+</div>
+```
+
+img
+
+### Complex Positioning with Overlays
+
+```html
+<div class="container">
+    <div class="parent">
+        <div class="overlay">Overlay Content</div>
+    </div>
+</div>
+```
+
+img

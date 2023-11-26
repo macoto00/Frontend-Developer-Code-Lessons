@@ -1,0 +1,28 @@
+.container {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.float-left {
+    float: left;
+    width: 40%;
+    background-color: lightblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.absolute-pos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+.content {
+    margin: 1rem;
+    text-align: center;
+    clear: both;
+}
