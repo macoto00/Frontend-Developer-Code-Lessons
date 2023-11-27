@@ -140,7 +140,7 @@ For your work, try to do a research for:
 </section>
 ```
 
-img
+![Styling Header](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/ae69e989-eeab-452f-9efa-4fee231d171a)
 
 ### Styling paragraphs
 
@@ -161,7 +161,8 @@ img
 </section>
 ```
 
-img
+![Styling paragraphs](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/8b58a8f3-2f57-40a1-a14f-c5216ee61b1d)
+
 
 ### Styling All Together
 
@@ -185,7 +186,8 @@ img
 </section>
 ```
 
-img
+![Styling All Together](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/983742f2-756e-4945-9e0b-537567f9a536)
+
 
 ### Styling Differently
 
@@ -210,7 +212,7 @@ img
 </section>
 ```
 
-img
+![Styling Differently](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/f5ba6aaf-5764-4995-b79a-fa3efcd7afa3)
 
 ### Backgrounds
 
@@ -227,4 +229,4 @@ img
 </section>
 ```
 
-img
+![Backgrounds](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/14e7e35a-5d7a-46b6-bf48-0d8be38a8abb)

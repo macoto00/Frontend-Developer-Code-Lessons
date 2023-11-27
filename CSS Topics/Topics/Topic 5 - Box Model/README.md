@@ -56,7 +56,8 @@ Time for practice!
 <div class="box-example"></div>
 ```
 
-img
+![boxExample](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/ebb511b4-079c-48da-8409-deb6bcb1e0b0)
+
 
 ### Example Box with padding
 
@@ -65,7 +66,7 @@ img
 <div class="box-example padding-example">Padding Example</div>
 ```
 
-img
+![padding](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/767bec09-7280-417a-999e-1bf6f1d80f52)
 
 ### Example Box with different border
 
@@ -74,7 +75,8 @@ img
 <div class="box-example border-example">Border Example</div>
 ```
 
-img
+![border](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/bad87583-9b08-4715-9388-f81324658cf4)
+
 
 ### Example Box with margin
 
@@ -84,7 +86,7 @@ img
 <div class="box-example margin-example">Margin Example</div>
 ```
 
-img
+![margin](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/7a9ee650-47ef-4365-8263-e347ec6df7fb)
 
 ### Example Box with combined styling
 
@@ -93,7 +95,8 @@ img
 <div class="box-example combined-example">Combined Example</div>
 ```
 
-img
+![combined](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/1482446d-34f4-476c-b32f-cd2351e2f00a)
+
 
 ### More examples
 
@@ -103,3 +106,5 @@ img
 <div class="box-example inner-box2">Inner Box 2</div>
 <div class="box-example inner-box3">Inner Box 3</div>
 ```
+
+![more](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/58c48141-b3c3-491a-a1ff-c1bff2c260f0)
