@@ -99,32 +99,32 @@ CSS Grid is a powerful tool for creating complex, two-dimensional layouts.
 
 ### Basic Grid
 
-img
+![basic](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/7362fbf5-4312-4beb-bf29-9128b5714e6c)
 
 ### Setting Grid Gaps
 
-img
+![gaps](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/d271a5c8-af28-47f5-b504-1b50090ff275)
 
 ### Placing Grid Items
 
-img
+![placing](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/7c615b37-1321-49dc-a379-45c5f53a5912)
 
 ### Justify and Align Items
 
-img
+![justify](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/5887bba8-5d11-465e-96cf-f5662ed267c5)
 
 ### Nested Grids
 
-img
+![nested](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/2bd7ee21-0abc-46eb-8f69-765d61d8c45f)
 
 ### Named Grid Areas 
 
-img
+![named](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/712f79ea-72e0-4e36-9d80-fffa1186f635)
 
 ### Ultra Grid 💪
 
-img
+![ultraOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/c9827ff6-b4e1-4d3b-a438-3949832c6b09)
 
 ### Ultra Grid Vol. 2  💪
 
-img
+![ultraTwo](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/7ee1e926-e6bc-400e-91f4-3b2e1fa5203e)
