@@ -145,39 +145,39 @@ Example:
 
 ### Basic Transition
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/f8f500d3-9b91-496d-8d6a-2694f2435ccd
 
 ### Scale Transformation on Hover
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/5bf69f28-8199-43d8-97a9-b8f2ffad2a19
 
 ### Rotate Transformation on Hover
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/9b767c5c-dfbc-4076-a0a8-00d545c70c5f
 
 ### Translate Transformation on Hover
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/43d819d2-e0eb-4a30-88a4-30759afac5c2
 
 ### Skew Transformation on Hover
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0ea3aeb6-7b14-44a9-a6c0-963060f9dca9
 
 ### Keyframe Animation
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/dddab6aa-4f02-49e2-ba78-4633837037a7
 
 ### Combining Transformations
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/5e20f9da-14a3-45bf-8f66-c67ef81f3184
 
 ### Multiple Transformations with Keyframes 💪
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/35af452b-8aec-45b8-aeda-88caf2d370ac
 
 ### Complex Example 💪💪
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/7bc21c68-2c3c-45f1-9ec6-39fb02eadc7f
 
 ### Solar System 💪💪💪
 
@@ -185,4 +185,4 @@ Just take a peek look at this monstrosity - https://codepen.io/juliangarnier/pen
 
 Don't worry. We will have something far simple, yet a hard task. 
 
-img
+https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/c6982773-6a52-41f0-8a82-219fe6f04f4b
