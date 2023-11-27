@@ -88,7 +88,7 @@ Mainly you will work witch this simple HTML:
 </div>
 ```
 
-You will need to apply more Attributes to achieve desired example.
+In some cases, you will need to apply more Attributes to achieve desired example.
 
 img
 
@@ -97,8 +97,6 @@ img
 img
 
 ### Flex Direction
-
-img
 
 img
 
@@ -120,14 +118,14 @@ img
 
 img
 
-### Complex Flex Container
+### Complex Flex Container 💪
 
 img
 
-### Nested Flexbox
+### Nested Flexbox 💪
 
 img
 
-### Ultra Flexbox 💪
+### Ultra Flexbox 💪💪
 
 img
