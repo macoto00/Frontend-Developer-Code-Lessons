@@ -1081,6 +1081,19 @@ button.addEventListener('click', function(event) {
 
 ### Mouse Events
 
+JavaScript provides various mouse events that allow you to respond to user interactions with the mouse on a webpage. These events occur when the user moves the mouse, clicks on elements, scrolls, hovers over elements, and more. Here are some commonly used mouse events:
+
+`click`: Fired when the mouse button is clicked.
+`dblclick`: Fired when the mouse button is double-clicked.
+`mousedown`: Fired when a mouse button is pressed down over an element.
+`mouseup`: Fired when a mouse button is released over an element.
+`mousemove`: Fired when the mouse pointer is moved over an element.
+`mouseover`: Fired when the mouse pointer enters the area of an element.
+`mouseout`: Fired when the mouse pointer leaves the area of an element.
+`contextmenu`: Fired when the right mouse button is clicked, typically used to display a context menu.
+
+These events can be attached to HTML elements and respond to different mouse interactions, enabling you to create interactive features on a webpage.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1164,6 +1177,22 @@ box.addEventListener('mousemove', function (event) {
 
 ## Keyboard Events
 
+Keyboard events in JavaScript allow you to respond to user interactions with the keyboard. These events provide information about which keys are being pressed, released, or held down, enabling you to create dynamic and interactive experiences on web pages.
+
+Here are the commonly used keyboard events:
+
+`keydown`: This event is triggered when a key is pressed down.
+`keyup`: This event is triggered when a key is released.
+`keypress`: Historically used for detecting character keys being pressed, but it's less commonly used now. It used to represent a character being inserted, but it doesn't detect all keys, such as modifier keys (Shift, Ctrl, Alt).
+`input`: This event is fired synchronously when the value of an <input>, <select>, or <textarea> element is changed.
+
+Each of these events is associated with the event object, which contains information about the keyboard interaction. Some key properties of the event object related to keyboard events include:
+
+`event.key`: Indicates the value of the key that triggered the event ("a", "Enter", "Shift", etc.).
+`event.code`: Provides the physical position of the key on the keyboard ("KeyA" for "a" key, "Enter" for Enter key, etc.).
+`event.keyCode` (deprecated): Used to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
+`event.which` (deprecated): Another way to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1246,6 +1275,20 @@ document.addEventListener('keyup', function (event) {
 ```
 
 ## Form Events
+
+JavaScript form events allow you to respond to various interactions and actions related to HTML forms on a web page. These events enable you to validate user input, control form submission, and perform actions based on form interactions. Here are some commonly used form events:
+
+`submit`: This event is triggered when a form is submitted, either by clicking a submit button or by using JavaScript to call the submit() method of the form.
+`reset`: Fired when the reset button within a form is clicked, resetting the form to its default values.
+`change`: Fired when the value of a form element (input, select, textarea) is changed and then loses focus.
+`input`: Similar to the change event but fires whenever the value of a form element is changed, even if it's still in focus.
+`focus`: Fired when a form element gains focus.
+`blur`: Fired when a form element loses focus.
+
+Each of these events provides access to the event object, which contains information about the form interaction. Some key properties of the event object related to form events include:
+
+`event.target`: Refers to the form element that triggered the event.
+`event.preventDefault()`: Method used to prevent the default behavior associated with the event (e.g., preventing form submission).
 
 ```html
 <!DOCTYPE html>
@@ -1337,6 +1380,22 @@ form.addEventListener('submit', function (event) {
 
 ## Document/window events
 
+JavaScript document and window events allow you to respond to various interactions and changes within the document or window of a web page. These events help in creating dynamic and interactive web experiences by detecting changes like loading of the document, resizing the window, scrolling, and more. Here are some commonly used document/window events:
+
+Window Events:
+
+`load`: Fired when the entire page (including all its resources) finishes loading.
+`resize`: Fired when the browser window is resized.
+`scroll`: Fired when the document is scrolled either vertically or horizontally.
+`unload`: Fired when the page is about to be unloaded (e.g., when navigating away from the page).
+
+Document Events:
+
+`DOMContentLoaded`: Fired when the initial HTML document has been completely loaded and parsed without waiting for stylesheets, images, and subframes to finish loading.
+`DOMContentLoaded`: Similar to DOMContentLoaded but is supported in IE versions 8 and earlier.
+
+Each of these events triggers a callback function when it occurs, allowing you to perform actions or execute code in response to these events.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1406,19 +1465,230 @@ document.addEventListener('click', function (event) {
 });
 ```
 
-## ECMA Script Standards
+## Form Validations 
+
+Form validation in JavaScript involve ensuring that user input meets certain criteria or constraints before allowing it to be submitted. It's essential for enhancing user experience and maintaining data integrity on web forms.
+
+Form Validation:
+
+JavaScript can be used to validate form input either while the user is filling out the form or before submitting it to the server. Here's a simple example demonstrating form validation using JavaScript:
+
+```html
+<form id="myForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <span id="nameError" class="error"></span>
+  <br>
+  
+  <label for="telephone">Telephone:</label>
+  <input type="tel" id="telephone" name="telephone">
+  <span id="telephoneError" class="error"></span>
+  <br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  <span id="emailError" class="error"></span>
+  <br>
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea>
+  <span id="messageError" class="error"></span>
+  <br>
+  
+  <button type="submit">Submit</button>
+</form>
+```
+
+```css
+.error {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+```
 
 ```js
-// ES6 Arrow Function
-const add = (a, b) => a + b;
+const form = document.getElementById('myForm');
 
-// Template Literal
-const name = "Alice";
-console.log(`Hello, ${name}!`);
+form.addEventListener('submit', function (event) {
+    let isValid = true;
 
-// Destructuring
-const person = { firstName: 'John', lastName: 'Doe' };
-const { firstName, lastName } = person;
-console.log(`${firstName} ${lastName}`);
+    const nameInput = document.getElementById('name');
+    const telephoneInput = document.getElementById('telephone');
+    const emailInput = document.getElementById('email');
+    const messageInput = document.getElementById('message');
+
+    const nameError = document.getElementById('nameError');
+    const telephoneError = document.getElementById('telephoneError');
+    const emailError = document.getElementById('emailError');
+    const messageError = document.getElementById('messageError');
+
+    // Validate Name (Not empty)
+    if (inputIsEmpty(nameInput)) {
+        displayError(nameError, 'Name is required');
+        isValid = false;
+    } else {
+        clearError(nameError);
+    }
+
+    // Validate Telephone (Only numbers)
+    if (!isValidTelephone(telephoneInput)) {
+        displayError(telephoneError, 'Enter a valid telephone number');
+        isValid = false;
+    } else {
+        clearError(telephoneError);
+    }
+
+    // Validate Email (Email format)
+    if (!isValidEmail(emailInput)) {
+        displayError(emailError, 'Enter a valid email address');
+        isValid = false;
+    } else {
+        clearError(emailError);
+    }
+
+    // Validate Message (Not empty)
+    if (inputIsEmpty(messageInput)) {
+        displayError(messageError, 'Message is required');
+        isValid = false;
+    } else {
+        clearError(messageError);
+    }
+
+    if (!isValid) {
+        event.preventDefault();
+    }
+});
+
+function inputIsEmpty(input) {
+    return input.value.trim() === '';
+}
+
+function isValidTelephone(input) {
+    const telephoneRegex = /^\d+$/;
+    return telephoneRegex.test(input.value.trim());
+}
+
+function isValidEmail(input) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(input.value.trim());
+}
+
+function displayError(element, message) {
+    element.textContent = message;
+}
+
+function clearError(element) {
+    element.textContent = '';
+}
+```
+
+## Asynchronous JavaScript
+
+Asynchronous JavaScript refers to executing code that doesn’t necessarily run in sequence or wait for one operation to complete before starting another. Callback functions play a significant role in handling asynchronous operations in JavaScript.
+
+Callbacks:
+
+A callback function is a function passed as an argument to another function, which then gets executed at some point in the future, usually after an asynchronous operation completes. It allows you to specify what should happen after a certain task finishes without blocking the execution of other code.
+
+For example, consider the setTimeout function:
+
+```js
+console.log('Start');
+
+setTimeout(function() {
+  console.log('Inside setTimeout callback');
+}, 2000);
+
+console.log('End');
+```
+
+This code will proceed in following output: 
 
 ```
+Start
+End
+Inside setTimeout callback (after approximately 2 seconds)
+```
+
+However, using callbacks extensively can lead to situations known as "callback hell" or "pyramid of doom," where multiple nested callbacks can make code harder to read and maintain. To alleviate this, modern JavaScript has introduced alternative approaches like Promises, async/await, and the use of libraries like async.js to handle asynchronous code more cleanly and efficiently.
+
+## Promises & Async/Await
+
+Promises and async/await are features in JavaScript used to handle asynchronous operations in a more readable and manageable way compared to using callbacks directly. They provide a more structured and synchronous-looking syntax for handling asynchronous tasks.
+
+Promises:
+
+A Promise is an object that represents a value that might not be available yet, but will be resolved in the future, either successfully or unsuccessfully. It has three states: pending, fulfilled, or rejected. Promises have two main functions: resolve() and reject(), which are called to change the Promise's state.
+
+Here's an example of a simple Promise:
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+  // Asynchronous operation (e.g., fetching data from an API)
+  setTimeout(() => {
+    const success = true; // Simulating a successful operation
+    if (success) {
+      resolve('Operation completed successfully');
+    } else {
+      reject('Operation failed');
+    }
+  }, 2000);
+});
+
+myPromise.then((result) => {
+  console.log(result); // Output: Operation completed successfully
+}).catch((error) => {
+  console.error(error); // Output: Operation failed
+});
+```
+
+In this example, a Promise is created that simulates an asynchronous operation. When the operation is complete, it either resolves (with the success message) or rejects (with the error message). The then() method is used to handle the resolved promise, and the catch() method is used to handle any rejections.
+
+Async/Await:
+
+Async functions in JavaScript allow you to write Promise-based asynchronous code in a synchronous manner, making asynchronous operations look more like synchronous code, which is often easier to read and maintain.
+
+Here's the previous example rewritten using async/await:
+
+```js
+async function myAsyncFunction() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const success = true;
+      if (success) {
+        resolve('Operation completed successfully');
+      } else {
+        reject('Operation failed');
+      }
+    }, 2000);
+  });
+}
+
+async function runAsyncOperation() {
+  try {
+    const result = await myAsyncFunction();
+    console.log(result); // Output: Operation completed successfully
+  } catch (error) {
+    console.error(error); // Output: Operation failed
+  }
+}
+
+runAsyncOperation();
+```
+
+The `async` keyword before a function declaration means that the function will return a Promise implicitly, and the `await` keyword is used within async functions to wait for the Promise to resolve before proceeding further.
+
+Async/await simplifies the syntax for handling asynchronous operations, making it easier to understand and maintain code that deals with promises, especially when dealing with multiple asynchronous tasks sequentially or in parallel.
+
+## Further Research
+
+- Asynchronous Operations and APIs
+- Handling User Input and Events
+- Dynamic Content Rendering
+- Client-Side Routing
+- Browser Storage and Cookies
+- Responsive and Mobile-first Development
+- Performance Optimization
+- Cross-browser Compatibility
+- And Many Many other topics ...
