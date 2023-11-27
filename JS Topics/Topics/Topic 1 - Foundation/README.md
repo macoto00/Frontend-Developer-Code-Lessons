@@ -2,6 +2,39 @@
 
 JavaScript is a versatile scripting language used primarily for web development, allowing dynamic content manipulation, event handling, and more.
 
+We usually call the script file `script.js`
+
+To the HTML we map the JS file by adding 
+
+```html
+<script src="script.js"></script>
+```
+
+in the end of the `<body>` element. Just like that:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HTML content -->
+    
+    <!-- Script file mapped -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
 A simple "Hello, World!" script demonstrating basic syntax:
 
 ```js
@@ -1027,6 +1060,351 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 ```
 
+## Events and Event Handling
+
+Events in JavaScript refer to actions or occurrences that happen in the browser, such as a user clicking a button, pressing a key, resizing a window, or a webpage finishing loading. Event handling involves writing code to respond to these events.
+
+In JavaScript, you can use event listeners to handle events. Event listeners are functions that wait for a specific event to occur and then execute code in response. They are attached to HTML elements and respond to user interactions or other events triggered by the browser.
+
+Example: 
+
+```js
+// Get a reference to the button element
+const button = document.getElementById('myButton');
+
+// Add an event listener to the button
+button.addEventListener('click', function(event) {
+  // Code to be executed when the button is clicked
+  console.log('Button clicked!');
+});
+```
+
+### Mouse Events
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="box" class="box">Move your mouse over this box</div>
+        <p id="output">Mouse events will be displayed here</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
+```css
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #2980b9;
+}
+```
+
+```js
+const box = document.getElementById('box');
+const output = document.getElementById('output');
+
+box.addEventListener('click', function () {
+    output.textContent = 'Clicked!';
+});
+
+box.addEventListener('mouseover', function () {
+    output.textContent = 'Mouse over the box!';
+});
+
+box.addEventListener('mouseout', function () {
+    output.textContent = 'Mouse left the box!';
+});
+
+box.addEventListener('mousedown', function () {
+    output.textContent = 'Mouse button pressed down!';
+});
+
+box.addEventListener('mouseup', function () {
+    output.textContent = 'Mouse button released!';
+});
+
+box.addEventListener('mousemove', function (event) {
+    output.textContent = `Mouse position - X: ${event.clientX}, Y: ${event.clientY}`;
+});
+
+```
+
+## Keyboard Events
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Type something...</h1>
+        <p>Interact with the keyboard to see changes!</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.keyboard-active {
+    color: #e91e63;
+}
+```
+
+```js
+const container = document.querySelector('.container');
+const heading = document.querySelector('h1');
+
+document.addEventListener('keydown', function (event) {
+    container.classList.add('keyboard-active');
+    heading.style.color = 'red';
+    heading.style.fontWeight = 'bold';
+    console.log(`Key "${event.key}" pressed!`);
+});
+
+document.addEventListener('keyup', function (event) {
+    container.classList.remove('keyboard-active');
+    heading.style.color = ''; // Reset to default color
+    heading.style.fontWeight = ''; // Reset to default font weight
+    console.log(`Key "${event.key}" released!`);
+});
+```
+
+## Form Events
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="myForm" class="form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="output">Form events will be displayed here</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
+```css
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+```
+
+```js
+const form = document.getElementById('myForm');
+const output = document.getElementById('output');
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevents the default form submission
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    if (username && password) {
+        output.textContent = `Form submitted! Username: ${username}, Password: ${password}`;
+    } else {
+        output.textContent = 'Please fill in all fields.';
+    }
+});
+```
+
+## Document/window events
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Try resizing the window, scrolling, and clicking anywhere on the page.</p>
+        <p id="output">Document/Window events will be displayed here</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    max-width: 80%;
+}
+```
+
+```js
+const output = document.getElementById('output');
+
+// Window events
+window.addEventListener('resize', function () {
+    output.textContent = 'Window resized!';
+});
+
+window.addEventListener('scroll', function () {
+    output.textContent = 'Window scrolled!';
+});
+
+// Document events
+document.addEventListener('click', function (event) {
+    output.textContent = `Document clicked at X: ${event.clientX}, Y: ${event.clientY}`;
+});
+```
 
 ## ECMA Script Standards
 

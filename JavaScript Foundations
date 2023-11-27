@@ -1,10 +1,6 @@
 # JavaScript Foundations Roadmap
 
 
-9. Events and Event Handling
-Event Basics: Understand events—click, mouseover, submit, etc.—and their role in web interaction.
-Event Handling: Attach event listeners and handle events using JavaScript.
-
 10. Asynchronous JavaScript
 Callbacks: Understand callback functions and their use in asynchronous JavaScript.
 Promises: Learn about promises and how they handle asynchronous operations.
