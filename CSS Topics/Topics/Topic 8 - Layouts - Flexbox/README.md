@@ -90,44 +90,42 @@ Mainly you will work witch this simple HTML:
 
 You will need to apply more Attributes to achieve desired example.
 
-img
+![auto](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/73eea472-3033-4b10-9a9f-716e1dcb3065)
 
 ### Basic Flex Container
 
-img
+![flex](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/abf5a16f-163c-4a35-9ca0-ec4205574bc9)
 
 ### Flex Direction
 
-img
+![flexDirectionOne](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/5f89f25e-1a89-400a-9c3b-ea405fe8a97f)
 
-img
-
-img
+![flexDirectionTwo](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/b80c27d8-8907-4c5a-bbd4-ba4e57809fdf)
 
 ### Justify Content
 
-img
+![justify](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/bc42b805-3ee6-428c-a186-983ed997edc8)
 
 ### Flex Grow, Shrink, Basis
 
-img
+![align](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/42c17e2a-e321-4f16-87c3-c70c32515b55)
 
 ### Align Self
 
-img
+![childAlign](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/9ff630df-28a8-4072-9660-d6827c83917d)
 
 ### Changing Order
 
-img
+![changingOrder](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/5275e1db-e2b7-4383-b5ec-cb841a1df690)
 
 ### Complex Flex Container
 
-img
+![complex](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/e73010e6-c3fd-4d8a-9766-66e671df32d8)
 
 ### Nested Flexbox
 
-img
+![nested](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/25525377-352e-4963-82ea-c986dcebd2e1)
 
 ### Ultra Flexbox 💪
 
-img
+![ultra](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/fc3c9d8f-53d8-4113-91a7-42c6786ff8c4)
