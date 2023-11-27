@@ -1,11 +1,6 @@
 # JavaScript Foundations Roadmap
 
 
-
-8. Working with the DOM
-DOM Basics: Interact with HTML and CSS using JavaScript through the Document Object Model (DOM).
-Manipulating Elements: Learn methods to access, create, modify, and delete DOM elements.
-
 9. Events and Event Handling
 Event Basics: Understand events—click, mouseover, submit, etc.—and their role in web interaction.
 Event Handling: Attach event listeners and handle events using JavaScript.
