@@ -127,7 +127,7 @@ Transitioning from HTTP to HTTPS:
 
 In summary, HTTPS, implemented with SSL/TLS certificates, ensures secure communication between browsers and servers, providing data encryption, authentication, and trustworthiness, unlike HTTP, which operates without encryption and is vulnerable to security threats. This transition has become a standard practice for ensuring the security and integrity of online interactions.
 
-## Steps so have your HTML, CSS & JS code accessible as a website on the World Wide Web
+## Steps to have your HTML, CSS & JS code accessible as a website on the World Wide Web
 
 1. Domain Name and Hosting
 2. Upload Files
