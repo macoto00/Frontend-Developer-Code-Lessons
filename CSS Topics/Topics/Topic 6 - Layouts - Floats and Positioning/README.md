@@ -85,7 +85,7 @@ For your work, try to do a research for:
 </div>
 ```
 
-img
+![float](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0933bd69-1588-4637-acb0-81e1121b4eae)
 
 ### Relative & Absolute Positioning
 
@@ -101,7 +101,7 @@ img
 </div>
 ```
 
-img
+![relativeAbsolute](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0cc2b735-5637-49ef-89ec-a5e07b459995)
 
 ### Mix of Float and Positioning
 
@@ -113,7 +113,7 @@ img
 </div>
 ```
 
-img
+![mix](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/cd7d1985-dd4e-475a-8fad-b70c9ef35a5d)
 
 ### Nested Positioned Elements
 
@@ -127,7 +127,7 @@ img
 </div>
 ```
 
-img
+![nested](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/e4122f73-0f79-49fe-97de-c78d31a380cc)
 
 ### Complex Positioning with Overlays
 
@@ -139,4 +139,4 @@ img
 </div>
 ```
 
-img
+![complex](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/ba7b5664-31af-4db1-81cb-4c0ad06b56ad)
