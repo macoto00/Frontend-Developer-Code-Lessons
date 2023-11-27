@@ -873,9 +873,9 @@ try {
 
 JavaScript provides an Error object that contains information about an error.
 
-`error.name`: Contains the name of the error (e.g., SyntaxError, TypeError).
-`error.message`: Provides a human-readable description of the error.
-`error.stack`: Displays the stack trace of the error.
+- `error.name`: Contains the name of the error (e.g., SyntaxError, TypeError).
+- `error.message`: Provides a human-readable description of the error.
+- `error.stack`: Displays the stack trace of the error.
 
 ## Working with the DOM
 
@@ -1083,14 +1083,14 @@ button.addEventListener('click', function(event) {
 
 JavaScript provides various mouse events that allow you to respond to user interactions with the mouse on a webpage. These events occur when the user moves the mouse, clicks on elements, scrolls, hovers over elements, and more. Here are some commonly used mouse events:
 
-`click`: Fired when the mouse button is clicked.
-`dblclick`: Fired when the mouse button is double-clicked.
-`mousedown`: Fired when a mouse button is pressed down over an element.
-`mouseup`: Fired when a mouse button is released over an element.
-`mousemove`: Fired when the mouse pointer is moved over an element.
-`mouseover`: Fired when the mouse pointer enters the area of an element.
-`mouseout`: Fired when the mouse pointer leaves the area of an element.
-`contextmenu`: Fired when the right mouse button is clicked, typically used to display a context menu.
+- `click`: Fired when the mouse button is clicked.
+- `dblclick`: Fired when the mouse button is double-clicked.
+- `mousedown`: Fired when a mouse button is pressed down over an element.
+- `mouseup`: Fired when a mouse button is released over an element.
+- `mousemove`: Fired when the mouse pointer is moved over an element.
+- `mouseover`: Fired when the mouse pointer enters the area of an element.
+- `mouseout`: Fired when the mouse pointer leaves the area of an element.
+- `contextmenu`: Fired when the right mouse button is clicked, typically used to display a context menu.
 
 These events can be attached to HTML elements and respond to different mouse interactions, enabling you to create interactive features on a webpage.
 
@@ -1181,17 +1181,17 @@ Keyboard events in JavaScript allow you to respond to user interactions with the
 
 Here are the commonly used keyboard events:
 
-`keydown`: This event is triggered when a key is pressed down.
-`keyup`: This event is triggered when a key is released.
-`keypress`: Historically used for detecting character keys being pressed, but it's less commonly used now. It used to represent a character being inserted, but it doesn't detect all keys, such as modifier keys (Shift, Ctrl, Alt).
-`input`: This event is fired synchronously when the value of an <input>, <select>, or <textarea> element is changed.
+- `keydown`: This event is triggered when a key is pressed down.
+- `keyup`: This event is triggered when a key is released.
+- `keypress`: Historically used for detecting character keys being pressed, but it's less commonly used now. It used to represent a character being inserted, but it doesn't detect all keys, such as modifier keys (Shift, Ctrl, Alt).
+- `input`: This event is fired synchronously when the value of an `<input>`, `<select>`, or `<textarea>` element is changed.
 
 Each of these events is associated with the event object, which contains information about the keyboard interaction. Some key properties of the event object related to keyboard events include:
 
-`event.key`: Indicates the value of the key that triggered the event ("a", "Enter", "Shift", etc.).
-`event.code`: Provides the physical position of the key on the keyboard ("KeyA" for "a" key, "Enter" for Enter key, etc.).
-`event.keyCode` (deprecated): Used to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
-`event.which` (deprecated): Another way to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
+- `event.key`: Indicates the value of the key that triggered the event ("a", "Enter", "Shift", etc.).
+- `event.code`: Provides the physical position of the key on the keyboard ("KeyA" for "a" key, "Enter" for Enter key, etc.).
+- `event.keyCode` (deprecated): Used to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
+- `event.which` (deprecated): Another way to represent the Unicode value of the key that triggered the event (deprecated and not recommended for use).
 
 ```html
 <!DOCTYPE html>
@@ -1278,17 +1278,17 @@ document.addEventListener('keyup', function (event) {
 
 JavaScript form events allow you to respond to various interactions and actions related to HTML forms on a web page. These events enable you to validate user input, control form submission, and perform actions based on form interactions. Here are some commonly used form events:
 
-`submit`: This event is triggered when a form is submitted, either by clicking a submit button or by using JavaScript to call the submit() method of the form.
-`reset`: Fired when the reset button within a form is clicked, resetting the form to its default values.
-`change`: Fired when the value of a form element (input, select, textarea) is changed and then loses focus.
-`input`: Similar to the change event but fires whenever the value of a form element is changed, even if it's still in focus.
-`focus`: Fired when a form element gains focus.
-`blur`: Fired when a form element loses focus.
+- `submit`: This event is triggered when a form is submitted, either by clicking a submit button or by using JavaScript to call the submit() method of the form.
+- `reset`: Fired when the reset button within a form is clicked, resetting the form to its default values.
+- `change`: Fired when the value of a form element (input, select, textarea) is changed and then loses focus.
+- `input`: Similar to the change event but fires whenever the value of a form element is changed, even if it's still in focus.
+- `focus`: Fired when a form element gains focus.
+- `blur`: Fired when a form element loses focus.
 
 Each of these events provides access to the event object, which contains information about the form interaction. Some key properties of the event object related to form events include:
 
-`event.target`: Refers to the form element that triggered the event.
-`event.preventDefault()`: Method used to prevent the default behavior associated with the event (e.g., preventing form submission).
+- `event.target`: Refers to the form element that triggered the event.
+- `event.preventDefault()`: Method used to prevent the default behavior associated with the event (e.g., preventing form submission).
 
 ```html
 <!DOCTYPE html>
@@ -1384,15 +1384,15 @@ JavaScript document and window events allow you to respond to various interactio
 
 Window Events:
 
-`load`: Fired when the entire page (including all its resources) finishes loading.
-`resize`: Fired when the browser window is resized.
-`scroll`: Fired when the document is scrolled either vertically or horizontally.
-`unload`: Fired when the page is about to be unloaded (e.g., when navigating away from the page).
+- `load`: Fired when the entire page (including all its resources) finishes loading.
+- `resize`: Fired when the browser window is resized.
+- `scroll`: Fired when the document is scrolled either vertically or horizontally.
+- `unload`: Fired when the page is about to be unloaded (e.g., when navigating away from the page).
 
 Document Events:
 
-`DOMContentLoaded`: Fired when the initial HTML document has been completely loaded and parsed without waiting for stylesheets, images, and subframes to finish loading.
-`DOMContentLoaded`: Similar to DOMContentLoaded but is supported in IE versions 8 and earlier.
+- `DOMContentLoaded`: Fired when the initial HTML document has been completely loaded and parsed without waiting for stylesheets, images, and subframes to finish loading.
+- `DOMContentLoaded`: Similar to DOMContentLoaded but is supported in IE versions 8 and earlier.
 
 Each of these events triggers a callback function when it occurs, allowing you to perform actions or execute code in response to these events.
 
@@ -1683,6 +1683,7 @@ Async/await simplifies the syntax for handling asynchronous operations, making i
 
 ## Further Research
 
+- Object oriented programming
 - Asynchronous Operations and APIs
 - Handling User Input and Events
 - Dynamic Content Rendering
