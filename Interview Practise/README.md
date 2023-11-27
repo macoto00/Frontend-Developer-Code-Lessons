@@ -10,11 +10,11 @@ Tell us what you have learned recently?
  
 Tell us about your last project?
 
-| Some interviews are mostly theoretical
-| Some interviews are mostly practical
-| Some interviews are combinations of both
-| Some interviews require accomplishing a practical task
-| Some interviews require a practical example of solving the specified algorithm with an explanation
+- | Some interviews are mostly theoretical
+- | Some interviews are mostly practical
+- | Some interviews are combinations of both
+- | Some interviews require accomplishing a practical task
+- | Some interviews require a practical example of solving the specified algorithm with an explanation
 
 ## HTML/CSS:
 
