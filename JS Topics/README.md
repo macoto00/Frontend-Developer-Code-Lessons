@@ -1,4 +1,4 @@
-# HTML Topics
+# JavaScript Topics
 
 - [JS Topic - 1 - Foundations](URL)
 - [JS Topic - 2 - topicName](URL)
