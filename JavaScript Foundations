@@ -1,32 +1,6 @@
 # JavaScript Foundations Roadmap
 
-1. Introduction to JavaScript
-Language Basics: Understand JavaScript's role in web development and its syntax.
-ECMAScript Standards: Get familiar with different ECMAScript versions and their features.
 
-2. Variables and Data Types
-Variables: Learn variable declaration, naming conventions, scope (global, local), and hoisting.
-Primitive Data Types: Understand JavaScript's primitive types—string, number, boolean, null, undefined.
-
-3. Complex Data Types and Structures
-Arrays: Explore array creation, manipulation, iteration methods, and multidimensional arrays.
-Objects: Master objects, properties, methods, object manipulation, and JSON notation.
-
-4. Operators and Expressions
-Arithmetic Operators: Learn arithmetic operations, precedence, and operator precedence.
-Logical and Comparison Operators: Understand logical (AND, OR, NOT) and comparison operators (==, ===, !=, !==).
-
-5. Control Structures
-Conditional Statements: Master if-else, switch statements, and the ternary operator for decision making.
-Loops: Understand for, while, do-while loops, and their use cases.
-
-6. Functions
-Function Declaration vs. Expression: Understand function creation, parameters, return statements, and invocation.
-Scope and Closures: Explore function scope, closure, and lexical scope.
-
-7. Error Handling
-Try-Catch Block: Learn error handling using try-catch to manage exceptions.
-Throw Statement: Understand how to throw custom errors for better debugging.
 
 8. Working with the DOM
 DOM Basics: Interact with HTML and CSS using JavaScript through the Document Object Model (DOM).
