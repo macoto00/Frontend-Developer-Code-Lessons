@@ -13,5 +13,3 @@
 - [JS Topic - 11 - topicName](URL)
 - [JS Topic - 12 - topicName](URL)
 - [JS Topic - 13 - topicName](URL)
-- [JS Topic - 14 - topicName](URL)
-- [JS Topic - 15 - topicName](URL)
