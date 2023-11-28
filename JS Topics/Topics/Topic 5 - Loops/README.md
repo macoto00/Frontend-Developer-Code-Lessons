@@ -88,3 +88,140 @@ for (let i = 0; i < 5; i++) {
   console.log(i); // Outputs numbers from 0 to 2
 }
 ```
+
+## Tasks
+
+It's showtime.
+
+### I will not cheat
+
+```js
+// Create a program that writes this line 100 times:
+// "I won't cheat on the exam!"
+```
+
+### Even 500
+
+```js
+// Create a program that prints all even numbers between 0 and 500 (both included)
+```
+
+### Multiplication
+
+```js
+// Create a program which prints the multiplication table for a specified
+// number
+//
+// Example:
+// The number 15 should print:
+//
+// 1 * 15 = 15
+// 2 * 15 = 30
+// 3 * 15 = 45
+// 4 * 15 = 60
+// 5 * 15 = 75
+// 6 * 15 = 90
+// 7 * 15 = 105
+// 8 * 15 = 120
+// 9 * 15 = 135
+// 10 * 15 = 150
+```
+
+### FizzBuzz
+
+```js
+// Write a program that prints the numbers from 1 to 100
+// but for multiples of three print "Fizz" instead of the number
+// and for the multiples of five print "Buzz".
+// For numbers which are multiples of both three and five print "FizzBuzz".
+```
+
+### Draw triangle 💪
+
+```js
+// Write a program that takes a number and
+// then draws a triangle of the specified height
+//
+// Example:
+//
+// The triangle height: 4
+// *
+// **
+// ***
+// ****
+```
+
+### Draw pyramid 💪
+
+```js
+// Write a program that reads a number from the input and
+// then draws a pyramid of the specified height
+//
+// Example:
+//
+// Please enter the pyramid height: 4
+//    *
+//   ***
+//  *****
+// *******
+```
+
+### Draw diamond 💪
+
+```js
+// Write a program that reads a number from the standard input and
+// then draws a diamond of the specified height
+//
+// Example:
+//
+// Please enter the diamond height: 4
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *
+//
+// Note: the height of the diamond is taken from its base
+// (where it is the widest) to the top.
+// The total number of lines produced is 2*height-1
+```
+
+### Guess the number
+
+```js
+// Write a program that stores a number and the user has to figure it out.
+// The user can input guesses. After each guess the program responds
+// with a message indicating whether the stored number is smaller or
+// greater than the guess.
+// The program ends (exits) when the user finds the stored number
+//
+// Example:
+//
+// Please enter your guess: 3
+// The stored number is greater than 3
+// Please enter your guess: 10
+// The stored number is smaller than 10
+// Please enter your guess: 8
+// You have found the stored number 8
+```
+
+### Draw Chess Table 💪
+
+```js
+// Write a program that reads a number from the standard input and
+// then draws a chess table of the specified size
+//
+// Example:
+//
+// Please enter the chess table size: 8
+// % % % %
+//  % % % %
+// % % % %
+//  % % % %
+// % % % %
+//  % % % %
+// % % % %
+//  % % % %
+```

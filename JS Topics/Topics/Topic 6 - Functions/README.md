@@ -80,3 +80,14 @@ function finish() {
 
 doSomething(finish); // Output: "Doing something..." followed by "Finished!"
 ```
+
+## Tasks
+
+It's showtime.
+
+### I will not cheat
+
+```js
+// Create a program that writes this line 100 times:
+// "I won't cheat on the exam!"
+```

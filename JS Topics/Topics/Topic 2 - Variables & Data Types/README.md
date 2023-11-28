@@ -108,3 +108,89 @@ const multiply = function(x, y) {
   return x * y;
 };
 ```
+
+## Tasks
+
+It's showtime.
+
+### Favorite Number
+
+```js
+// Store your favorite number in a variable and print it like "My favorite number is: 7".
+```
+
+### Swap
+
+```js
+// Swap the values of the variables without changing the following 2 lines of code and print them.
+int a = 123;
+int b = 456;
+```
+
+### Hello Student
+
+```js
+// Write a program that greets the student like "Hello, Tomas, my favorite student".
+// Store the student name in a variable.
+```
+
+### Declare Variables
+
+```js
+// Declare three variables (number, string, boolean) and assign them values of different data types.
+```
+
+### Concatenation
+
+```js
+// Create a variable firstName and lastName, then concatenate them to form a full name in a new variable.
+```
+
+### Variable Reassignment
+
+```js
+// Declare a variable and reassign it with a new value of a different data type.
+```
+
+### Variable Name Rules
+
+```js
+// Create variables using different naming conventions (camelCase, snake_case) and confirm they work the same way.
+```
+
+### Strings, Strings Everywhere
+
+```js
+let myString = "Hello, how are you?";
+console.log("Original String:", solveHere);
+
+// Task 1: Convert to Uppercase
+console.log("Uppercase:", solveHere);
+
+// Task 2: Convert to Lowercase
+console.log("Lowercase:", solveHere);
+
+// Task 3: Get the length of the string
+console.log("Length:", solveHere);
+
+// Task 4: Find the index of a specific character or substring
+console.log("Index of 'are':", solveHere);
+
+// Task 5: Replace a substring "how" for "where"
+solveHere
+console.log("String after replacement:", replacedString);
+
+// Task 6: Get a substring
+// Extracts characters from index 7 to index 9
+solveHere
+console.log("Substring:", subString);
+
+// Task 7: Split the string into an array
+solveHere
+console.log("Split into array:", splitArray);
+
+// Task 8: Trim whitespace from the string
+let trimmedString = "   Some spaces here    ";
+console.log("Trimmed String:", solveHere);
+```
+
