@@ -113,21 +113,20 @@ Time for practice!
 
 ### Rectangle
 
-![Rectangle](URL)
+![rectangle](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/b0eadc18-e1fc-4790-af4c-f383ed4a9495)
 
 ### Circle
 
-![Circle](URL)
+![circle](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/436232dc-b13f-4653-af89-5d20d809e64c)
 
 ### Ellipse
 
-![Ellipse](URL)
+![elipse](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/f2d4c075-3cb9-4588-b596-d095bbf1c3eb)
 
 ### Triangle 💪
 
-![Triangle](URL)
+![triangle](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/6d1b3058-c8ec-40c7-b353-2ca9b19425a2)
 
 ### Hexagon 💪💪
 
-![Hexagon](URL)
-
+![hexagon](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/f5c3989d-ca46-41b2-923e-0d81f34315d5)
