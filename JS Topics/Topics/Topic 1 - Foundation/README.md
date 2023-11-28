@@ -35,6 +35,16 @@ in the end of the `<body>` element. Just like that:
 </html>
 ```
 
+## Why to the end of the `<body>`?
+
+There are basically two reasons for that.
+
+**Page Loading Performance:** Placing JavaScript files at the end of the `<body>` allows the HTML content to load first. JavaScript can sometimes block other resources from loading while it's being fetched and executed. By putting it at the end, the page's critical content (HTML, CSS, images) can load first, improving perceived performance.
+
+**Parsing and Execution:** Older browsers used to parse HTML in a sequential manner. When encountering a `<script>` tag, they would stop parsing until the script was fetched and executed. Placing scripts at the end of the body helps avoid this interruption as most of the visible content would have already been parsed and displayed.
+
+## Basic example
+
 A simple "Hello, World!" script demonstrating basic syntax:
 
 ```js
