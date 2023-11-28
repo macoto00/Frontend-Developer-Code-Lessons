@@ -38,3 +38,7 @@ Where to solve Algorithms?
 - Codewars
 - Leetcode
 - Coderbyte
+
+## 10 Advice To All Junior Developers Out There
+
+https://www.youtube.com/watch?v=6JmZcC-oGF0
