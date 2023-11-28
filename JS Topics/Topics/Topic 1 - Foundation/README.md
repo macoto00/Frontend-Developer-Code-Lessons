@@ -172,3 +172,33 @@ function outerFunction() {
 let myFunction = outerFunction();
 myFunction(); // Output: "Hello"
 ```
+## Comments
+
+In JavaScript, comments are used to add explanatory notes or to exclude certain lines of code from being executed by the browser. There are two types of comments in JavaScript:
+
+### Single-line comments
+
+To create a single-line comment in JavaScript, you use //. Anything after // on the same line will be treated as a comment.
+
+```js
+// This is a single-line comment
+var x = 5; // Assigning the value 5 to variable x
+```
+
+Everything after `//` until the end of the line won't be executed by the browser and is purely for human readability.
+
+### Multi-line comments
+
+Multi-line comments start with `/*` and end with `*/`, allowing you to comment out multiple lines at once.
+
+```js
+/*
+   This is a multi-line comment
+   It can span multiple lines
+   and is useful for longer explanations.
+*/
+```
+
+All text between `/*` and `*/`, including line breaks, won't be interpreted as JavaScript code by the browser.
+
+Comments in JavaScript are essential for documenting code, explaining functionality, or temporarily disabling sections of code for testing or debugging purposes. They help developers understand the purpose of specific code segments and improve code readability.

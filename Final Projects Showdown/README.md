@@ -17,7 +17,8 @@ The points to cover:
 
 - Advanced Framework course
 - Advanced Frontend course
-- UX/UI course
+- UX/UI course (User Experience, User Interface)
+- SEO (Search Engine Optimization)
 - Testing course
 - Backend language 
 - Database handling

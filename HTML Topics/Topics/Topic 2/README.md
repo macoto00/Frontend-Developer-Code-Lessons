@@ -230,11 +230,87 @@ Audio and Video: `<audio>` and `<video>` tags for embedding media content.
 Canvas and SVG: Elements for drawing graphics and creating scalable vector graphics.
 Local Storage and Session Storage: localStorage and sessionStorage for storing data on the client-side.
 
-## Block 9: Browser Developer Tools
+## Block 9: Paths 
+
+In HTML, when referencing files like images, stylesheets, or scripts, you can use relative and absolute paths to specify the location of these files.
+
+### Relative Path
+
+A relative path specifies the location of a file with respect to the current location of the HTML file. There are different types of relative paths:
+
+**Relative to the current directory**: If the file you're linking to is in the same directory as the HTML file or within a subdirectory, you can simply specify the filename.
+
+```html
+<img src="image.jpg" alt="Image">
+<link rel="stylesheet" href="styles/main.css">
+<script src="scripts/script.js"></script>
+```
+
+**Relative to the parent directory**: If the file you're linking to is in a directory above the current directory, you can use ../ to move up one level.
+
+```html
+<img src="../images/image.jpg" alt="Image">
+<link rel="stylesheet" href="../styles/main.css">
+<script src="../scripts/script.js"></script>
+```
+
+### Absolute Path
+
+An absolute path specifies the complete URL or directory path to a file from the root of the website or file system.
+
+**Absolute URL**: If the file is hosted on another website or server, you can specify the complete URL
+
+```html
+<img src="https://example.com/images/image.jpg" alt="Image">
+<link rel="stylesheet" href="https://example.com/styles/main.css">
+<script src="https://example.com/scripts/script.js"></script>
+```
+
+**Absolute path on the server**: If the file is located within the same server, you can specify the absolute path from the root directory of the website.
+
+```html
+<img src="/images/image.jpg" alt="Image">
+<link rel="stylesheet" href="/styles/main.css">
+<script src="/scripts/script.js"></script>
+```
+
+Relative paths are more portable and easier to manage when moving files around within a website structure. On the other hand, absolute paths are necessary when linking to external resources or when the file structure changes drastically.
+
+Remember, the choice between absolute and relative paths depends on the specific requirements of your project and how the files are organized and hosted.
+
+## Block 10: Comments
+
+In HTML, you can create comments to add notes or descriptions within the code that won't be displayed in the web browser. Comments are useful for documenting your HTML for yourself or other developers.
+
+To create a comment in HTML, you can use the following syntax:
+
+```html
+<!-- This is a comment -->
+```
+
+Anything placed between <!-- and --> will be treated as a comment and will not be rendered in the browser. For example:
+
+```html
+<!-- This is a comment -->
+<p>This is a paragraph of text.</p>
+```
+
+In this case, only the paragraph <p> tag will be rendered by the browser. The comment won't be visible on the web page but will be visible in the HTML source code. Comments can span multiple lines as well.
+
+```html
+<!--
+    This is a multi-line comment
+    It can span several lines.
+-->
+```
+
+Keep in mind that comments are useful for explaining code or temporarily removing parts of the HTML without deleting them entirely. They're not visible to users visiting your webpage but can be viewed by anyone inspecting the page source.
+
+## Block 11: Browser Developer Tools
 
 Google Chrome - F12 or right click and inspect.
 
-## Block 10: Resources and Further Learning
+## Block 12: Resources and Further Learning
 
 Recommend online resources, documentation, and practice exercises to continue learning and exploring HTML.
 

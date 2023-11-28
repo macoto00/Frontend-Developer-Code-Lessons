@@ -108,3 +108,26 @@ Time for practice!
 ```
 
 ![more](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/58c48141-b3c3-491a-a1ff-c1bff2c260f0)
+
+## Shapes
+
+### Rectangle
+
+![Rectangle](URL)
+
+### Circle
+
+![Circle](URL)
+
+### Ellipse
+
+![Ellipse](URL)
+
+### Triangle 💪
+
+![Triangle](URL)
+
+### Hexagon 💪💪
+
+![Hexagon](URL)
+
