@@ -110,7 +110,8 @@ It's showtime.
 ### Simple If-Else
 
 ```js
-// Write a program that checks if a given number is positive or negative. If the number is greater than zero, print "Positive", otherwise print "Negative".
+// Write a program that checks if a given number is positive or negative. 
+// If the number is greater than zero, print "Positive", otherwise print "Negative".
 ```
 
 ### Else-If Chain
@@ -139,13 +140,15 @@ It's showtime.
 
 ```js
 // Write a program to determine whether a year is a leap year or not. 
-// If the year is divisible by 4 and not divisible by 100 unless it's divisible by 400, print "Leap year", otherwise print "Not a leap year".
+// If the year is divisible by 4 and not divisible by 100 unless it's divisible by 400, print "Leap year", 
+// otherwise print "Not a leap year".
 ```
 
 ### Switch Statement
 
 ```js
-// Create a program that takes a weekday number (1 for Monday, 2 for Tuesday, and so on) and prints the corresponding weekday name. If the number is not between 1 and 7, print "Invalid input".
+// Create a program that takes a weekday number (1 for Monday, 2 for Tuesday, and so on) and prints the corresponding weekday name. 
+// If the number is not between 1 and 7, print "Invalid input".
 ```
 
 ### Even Odd 💪
@@ -186,7 +189,7 @@ It's showtime.
 // 13
 ```
 
-### Print bigger number 
+### Party Indicator
 
 ```js
 // Write a program that works with two numbers

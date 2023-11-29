@@ -85,7 +85,7 @@ doSomething(finish); // Output: "Doing something..." followed by "Finished!"
 
 It's showtime.
 
-### I will not cheat
+### Task Name
 
 ```js
 // Create a program that writes this line 100 times:
