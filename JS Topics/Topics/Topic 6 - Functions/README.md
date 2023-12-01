@@ -85,9 +85,161 @@ doSomething(finish); // Output: "Doing something..." followed by "Finished!"
 
 It's showtime.
 
-### Task Name
+You may need to do a research for a Regular expressions AKA "regex".
+
+### Greeting
 
 ```js
-// Create a program that writes this line 100 times:
-// "I won't cheat on the exam!"
+// Create a program that Greet the input user.
+// The input should be stored in a variable.
+
+// Example: Hello there, general Kenobi!
+
+// Example usage:
+
+let inputUser = "general Kenobi";
+let greeting = greetUser(inputUser);
+
+console.log(greeting);
+```
+
+### Double the Value
+
+```js
+// Create a program that doubles an input number and returns it's doubled value.
+// The input should be stored in a variable.
+
+// Example: 
+
+// Input: 123.
+// Output: 246.
+
+// Example usage:
+
+let number = 123;
+let doubledNumber = doubleNumber(number);
+
+console.log("Input:", number);
+console.log("Double:", doubledNumber);
+```
+
+### LOTR
+
+```js
+// You are given a variable frodo - Frodo walks alone.
+// But frodo doesn't like to walk alone. He likes to walk with Sam, his friend. 
+// Write a function called `notAlone()` that takes the input frodo, handle the logic so the return value is "Frodo walks with Sam".
+
+// Example:
+
+// Input: Frodo walks alone..
+// Output: Frodo walks with Sam..
+
+// Example usage:
+
+let frodoSentence = "Frodo walks alone.";
+let result = notAlone(frodoSentence);
+console.log("Input:", frodoSentence);
+console.log("Output:", result);
+```
+
+### Sum
+
+```js
+// Write a function called `sum()` that returns the sum of numbers from zero
+// to the given parameter
+//
+// Example: sum(5) = 0 + 1 + 2 + 3 + 4 + 5 = 15
+
+// Example usage:
+console.log(sum(5)); // Output: 15
+```
+
+### Factorial
+
+```js
+// Create a function called `calculateFactorial()`
+// that returns the factorial of its input.
+//
+// Example: 
+
+// calculateFactorial(5) = 1 * 2 * 3 * 4 * 5 = 120.
+
+// Example usage:
+
+let number = 5;
+console.log(calculateFactorial(number));
+```
+
+### Anagram 💪
+
+What the hell is an anagram?
+
+An anagram is direct word switch or word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once.
+
+```js
+// Create a function named isAnagram() following your current language's style guide. 
+// It should take two strings and return a boolean value depending on whether it's an anagram or not.
+
+// The function should ignore the letter case as well as any non (latin) letter characters, 
+// i.e. "Astronomer" is an anagram of "Moon starer!"
+
+// Example usage:
+
+let string1 = "dog";
+let string2 = "God";
+
+let string3 = "Luke";
+let string4 = "Vader";
+
+console.log(isAnagram(string1, string2)); // Output: true
+console.log(isAnagram(string3, string4)); // Output: false
+```
+
+### Palindrome 💪
+
+What the hell is a palindrome?
+
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
+
+```js
+// Create a function named isPalindrome(). 
+// It should take a string and check whether it is a palindrome or not and return a boolean value.
+
+// The function should ignore the letter case as well as any non (latin) letter characters.
+
+// Example usage:
+
+let inputString = "A man, a plan, a canal, Panama!";
+console.log(isPalindrome(inputString)); // Output: true
+
+```
+
+### Palindrome Builder 💪
+
+```js
+// Create a function named build(). 
+// It should take a string, create a palindrome from it and then return it.
+
+// The function should ignore the letter case as well as any non (latin) letter characters.
+
+// Example usage:
+
+let inputString = "Hello, world!";
+console.log(build(inputString)); // Output: "helloworlddlrowolleh"
+```
+
+### Palindrome Searcher 💪
+
+```js
+// Create a function named search(). 
+// It should take a string, search for palindromes of length at least 3 within it and return them in an array.
+
+// Hint: create a function named isPalindrome() which takes a string as an input 
+// and returns true/false depending on whether the string is a palindrome or not.
+
+// Example usage:
+
+let inputString = "abcbarracecarwow";
+console.log(search(inputString)); // Output: ["bcb", "racecar", "wow"]
 ```
