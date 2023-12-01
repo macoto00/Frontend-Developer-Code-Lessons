@@ -96,3 +96,14 @@ let matrix = [
 
 console.log(matrix[1][2]); // Output: 6
 ```
+
+## Tasks
+
+It's showtime.
+
+### TaskOne
+
+```js
+
+
+```

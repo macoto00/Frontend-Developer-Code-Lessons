@@ -125,6 +125,15 @@ It's showtime.
 // 8 * 15 = 120
 // 9 * 15 = 135
 // 10 * 15 = 150
+
+// Example usage:
+
+let specifiedNumber = 15;
+printMultiplicationTable(specifiedNumber);
+
+function printMultiplicationTable(number) {
+  // Write logic here
+}
 ```
 
 ### FizzBuzz
@@ -149,6 +158,16 @@ It's showtime.
 // **
 // ***
 // ****
+
+// Example usage:
+
+let triangleHeight = 4;
+drawTriangle(triangleHeight);
+
+
+function drawTriangle(height) {
+  // Solve logic here
+}
 ```
 
 ### Draw pyramid 💪
@@ -164,6 +183,15 @@ It's showtime.
 //   ***
 //  *****
 // *******
+
+// Example usage:
+
+let pyramidHeight = 4;
+drawPyramid(pyramidHeight);
+
+function drawPyramid(height) {
+  // Solve logic here
+}
 ```
 
 ### Draw diamond 💪
@@ -188,7 +216,7 @@ It's showtime.
 // The total number of lines produced is 2*height-1
 ```
 
-### Guess the number
+### Guess the number 💪
 
 ```js
 // Write a program that stores a number and the user has to figure it out.
@@ -205,6 +233,13 @@ It's showtime.
 // The stored number is smaller than 10
 // Please enter your guess: 8
 // You have found the stored number 8
+
+let storedNumber = 8; 
+guessNumber(storedNumber);
+
+function guessNumber(storedNumber) {
+    // Solve logic here
+}
 ```
 
 ### Draw Chess Table 💪

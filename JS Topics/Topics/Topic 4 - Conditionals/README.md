@@ -112,6 +112,19 @@ It's showtime.
 ```js
 // Write a program that checks if a given number is positive or negative. 
 // If the number is greater than zero, print "Positive", otherwise print "Negative".
+
+function checkNumber(num) {
+  // Solve logic here
+}
+
+// Example usage:
+
+let numberToCheck = 5;
+checkNumber(numberToCheck); // Output: Positive
+
+numberToCheck = -3;
+checkNumber(numberToCheck); // Output: Negative
+
 ```
 
 ### Else-If Chain
@@ -122,6 +135,21 @@ It's showtime.
 // If the number is between 1 and 9, print "Single Digit".
 // If it's between 10 and 99, print "Double Digit".
 // If it's greater than 99, print "Triple Digit or more".
+
+function categorizeNumber(num) {
+  // Solve logic here
+}
+
+// Example usage:
+
+let numberToCategorize = 5;
+categorizeNumber(numberToCategorize); // Output: Single Digit
+
+numberToCategorize = 75;
+categorizeNumber(numberToCategorize); // Output: Double Digit
+
+numberToCategorize = 150;
+categorizeNumber(numberToCategorize); // Output: Triple Digit or more
 ```
 
 ### Nested If-Else
@@ -134,6 +162,18 @@ It's showtime.
 // If it's between 70 and 79, print "C".
 // If it's between 60 and 69, print "D".
 // If it's below 60, print "F".
+
+function checkGrade(score) {
+    // Solve logic here
+}
+
+// Example usage:
+
+let studentScore = 85;
+checkGrade(studentScore); // Output: B
+
+studentScore = 45;
+checkGrade(studentScore); // Output: F 
 ```
 
 ### Else-If With Logical Operators
@@ -142,13 +182,38 @@ It's showtime.
 // Write a program to determine whether a year is a leap year or not. 
 // If the year is divisible by 4 and not divisible by 100 unless it's divisible by 400, print "Leap year", 
 // otherwise print "Not a leap year".
+
+function checkLeapYear(year) {
+  // Solve logic here
+}
+
+// Example usage:
+
+let yearToCheck = 2024;
+checkLeapYear(yearToCheck); // Output: Leap year
+
+yearToCheck = 2021;
+checkLeapYear(yearToCheck); // Output: Not a leap year
 ```
 
 ### Switch Statement
 
 ```js
-// Create a program that takes a weekday number (1 for Monday, 2 for Tuesday, and so on) and prints the corresponding weekday name. 
+// Create a program that takes a weekday number (1 for Monday, 2 for Tuesday, and so on) 
+// and prints the corresponding weekday name. 
 // If the number is not between 1 and 7, print "Invalid input".
+
+function getWeekdayName(dayNumber) {
+  // Solve logic here
+}
+
+// Example usage:
+
+let weekdayNumber = 3;
+getWeekdayName(weekdayNumber); // Output: Wednesday
+
+weekdayNumber = 8;
+getWeekdayName(weekdayNumber); // Output: Invalid input
 ```
 
 ### Even Odd 💪
@@ -159,6 +224,17 @@ It's showtime.
 //
 // Please enter a number: 7
 // Odd
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+readline.question('Please enter a number: ', (input) => {
+  // Solve logic here
+
+  readline.close();
+});
 ```
 
 ### Switch Statement 💪
@@ -174,6 +250,18 @@ It's showtime.
 //
 // Please enter a number: 5
 // A lot
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+readline.question('Please enter a number: ', (input) => {
+  // Write logic here
+
+  readline.close();
+});
+
 ```
 
 ### Print bigger number 
