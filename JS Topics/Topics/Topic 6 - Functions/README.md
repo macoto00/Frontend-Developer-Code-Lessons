@@ -81,6 +81,27 @@ function finish() {
 doSomething(finish); // Output: "Doing something..." followed by "Finished!"
 ```
 
+## Recursion
+
+Recursion in JavaScript refers to a programming technique where a function calls itself within its own definition. It's a powerful concept that allows a function to solve a problem by breaking it down into smaller, more manageable parts until it reaches a base case.
+
+Here's a simple example of a recursive function in JavaScript that calculates the factorial of a number:
+
+```js
+function factorial(n) {
+  // Base case: if n is 0 or 1, return 1
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    // Recursive call: n * factorial of (n - 1)
+    return n * factorial(n - 1);
+  }
+}
+
+// Example usage
+console.log(factorial(5)); // Outputs 120 (5! = 5 * 4 * 3 * 2 * 1 = 120)
+```
+
 ## Tasks
 
 It's showtime.
@@ -242,4 +263,19 @@ console.log(build(inputString)); // Output: "helloworlddlrowolleh"
 
 let inputString = "abcbarracecarwow";
 console.log(search(inputString)); // Output: ["bcb", "racecar", "wow"]
+```
+
+### Using recursion
+
+```js
+// Implement "numberAdder" which is a recursive function that takes one parameter: n (number)
+// and returns the sum of integers from 1 to n.
+// The function should return 0 for inputs less than 1.
+```
+
+### Using recursion again
+
+```js
+// Given a non-negative number n, return the sum of its digits recursively
+// (without loops).
 ```
