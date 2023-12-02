@@ -86,9 +86,42 @@ JavaScript provides an Error object that contains information about an error.
 
 It's showtime.
 
-### taskName
+### 18+
 
 ```js
+// Create a function that validates a user's age. 
+// If the provided age is not a number or is less than 18, 
+// throw a custom error.
 
+// Example output: 
 
+console.log(validateAge(25)); // Output: Age is valid.
+console.log(validateAge('abc')); // Throws an error like
+// Error: Invalid age: Age must be a number and greater than or equal to 18.
+```
+
+### String to Uppercase
+
+```js
+// Create a function that converts a string to uppercase. 
+// Use a try-catch block to handle scenarios where the input is not a string.
+
+// Example output: 
+
+console.log(convertToUppercase('hello')); // Output: HELLO
+console.log(convertToUppercase(42)); // Output: Error converting to uppercase: Input should be a string
+```
+
+### Pokemon
+
+```js
+// Create a function that simulates catching a wild Pokémon. 
+// Use a try-catch block to handle scenarios where catching the Pokémon fails due to low chances.
+
+// Example output: 
+
+// Wild Pokémon appeared!
+// Your chances to catch the pokemon: 92
+// Successfully caught the wild Pokémon!
+// Caught Pokémon!
 ```

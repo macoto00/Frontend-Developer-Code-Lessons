@@ -402,3 +402,125 @@ document.addEventListener('click', function (event) {
     output.textContent = `Document clicked at X: ${event.clientX}, Y: ${event.clientY}`;
 });
 ```
+
+## Tasks - DOM and Events Together Strong
+
+It's showtime.
+
+### Manipulate me
+
+You have this HTML:
+
+```html
+<div id="task1" class="task">
+    <button id="task1Button">Click me!</button>
+</div>
+
+<div id="task2" class="task">
+    <p id="task2Paragraph">Hover over me!</p>
+</div>
+
+<div id="task3" class="task">
+    <div id="task3ImageDiv">
+        <img id="task3Image" src="https://via.placeholder.com/150" alt="Pokemon">
+    </div>
+</div>
+
+<div id="task4" class="task">
+    <input id="task4Input" type="text">
+    <button id="task4Button">Show Alert</button>
+</div>
+
+<div id="task5" class="task">
+    <ul id="task5List">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</div>
+```
+
+This CSS:
+
+```css
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.task {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button,
+input[type="text"],
+button[type="button"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input {
+    margin-right: 1rem;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+button:hover,
+input[type="text"]:focus,
+button[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+```
+
+And your tasks are:
+
+```js
+// Task 1: The button should change its text when clicked.
+
+// Task 2:The paragraph should change color of the parent div 
+// when the mouse hovers over it.
+
+// Task 3: Clicking the image should toggle its size.
+
+// Task 4: Clicking the button should display an alert with the 
+// text entered in the input field.
+
+// Task 5: When clicked on list item - the item is removed from the 
+// list.
+```
