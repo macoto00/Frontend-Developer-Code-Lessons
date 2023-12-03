@@ -17,21 +17,6 @@ Let the Journey begins!
 - Interview Practise
 - Tell us How do you do Today
 
-## Goals
-
-- Course basics
-- GOOGLE Chrome - https://www.google.com/intl/cs/chrome/
-- Discord Chat - https://discord.com/
-- Github profile creation - https://github.com/
-- Repository creation
-- Github Desktop, Git Command Line Commands - https://desktop.github.com/
-- Get familiar with the Git and GitHub - https://git-scm.com/
-- Visual Studio Code setup - https://code.visualstudio.com/
-- InteliJ IDEA Community Edition - https://www.jetbrains.com/idea/
-- "Hello World!"
-- Get familiar with the tools: the browser, the editor 
-- HTML, CSS, JS Basics
-
 ## Topics
 
 - [Introduction](https://github.com/macoto00/Frontend-Developer-Code-Lessons/wiki/Introduction)
