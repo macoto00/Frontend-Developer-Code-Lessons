@@ -11,6 +11,6 @@
 - [JS Topic - 9 - Working with the DOM](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%209%20-%20Working%20with%20the%20DOM)
 - [JS Topic - 10 - Events and Event Handling](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2010%20-%20Events%20and%20Event%20Handling)
 - [JS Topic - 11 - Form Validations](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2011%20-%20Form%20Validations)
-- [JS Topic - 12 - Fetch and Asynchronous JavaScript](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2012%20-%20Asynchronous%20JavaScript)
+- [JS Topic - 12 - Fetch and Asynchronous JavaScript](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2012%20-%20Fetch%20and%20Asynchronous%20JavaScript)
 - [JS Topic - 13 - Object Oriented Programming](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2013%20-%20Object%20Oriented%20programming)
 - [JS Topic - 14 - Further Research](https://github.com/macoto00/Frontend-Developer-Code-Lessons/tree/main/JS%20Topics/Topics/Topic%2014%20-%20Further%20Research)
