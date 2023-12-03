@@ -125,6 +125,9 @@ class Ship {
 }
 
 // Example usage:
+console.log("=============================================")
+console.log("====== Pirate and Ship Example outputs ======")
+console.log("=============================================")
 const ship1 = new Ship();
 const ship2 = new Ship();
 
@@ -221,6 +224,9 @@ class WarApp {
 }
 
 // Run the war simulation
+console.log("================================================")
+console.log("====== Armada and War App Example outputs ======")
+console.log("================================================")
 WarApp.main();
 
 /*
@@ -260,6 +266,9 @@ class BattleApp {
 }
 
 // Run the battle simulation
+console.log("========================================")
+console.log("====== Battle App Example outputs ======")
+console.log("========================================")
 BattleApp.main();
 
 /*
