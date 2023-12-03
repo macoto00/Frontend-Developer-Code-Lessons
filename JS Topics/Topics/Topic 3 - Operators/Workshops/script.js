@@ -58,9 +58,13 @@ console.log(`The number of pigs: ${numberOfPigs}`);
 console.log(`The number of legs: ${totalLegs}`);
 
 // Sum and Average
-const numbers = [1, 3, 5, 6, 7];
-const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-const average = sum / numbers.length;
+let num1 = 1;
+let num2 = 3;
+let num3 = 5;
+let num4 = 6;
+let num5 = 7;
+let sum = num1 + num2 + num3 + num4 + num5;
+let average = sum / 5;
 console.log(`Sum: ${sum}, Average: ${average}`);
 
 // Cuboid
