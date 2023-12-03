@@ -115,3 +115,5 @@ function clearError(element) {
     element.textContent = '';
 }
 ```
+
+Consider other custom validations like SPAM handling or usage of some libraries.

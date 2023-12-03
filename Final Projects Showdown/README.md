@@ -4,7 +4,7 @@ Introduce us to your final project. Describe what it is, describe the structure 
 
 The points to cover: 
 
-- Introduction (what is it, why is it)
+- introduction (what is it, why is it)
 - show and explain HTML
 - show and explain CSS
 - show and explain JS

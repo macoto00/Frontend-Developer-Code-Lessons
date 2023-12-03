@@ -1,4 +1,4 @@
-# JS Topic XX - Object Oriented Programming
+# JS Topic 13 - Object Oriented Programming
 
 Object-oriented programming (OOP) in JavaScript revolves around the concept of using objects to model real-world entities or abstract concepts. In JavaScript, objects are fundamental, and they allow you to encapsulate data (properties) and behavior (methods) into a single entity.
 
