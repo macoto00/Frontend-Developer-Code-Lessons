@@ -149,7 +149,8 @@ console.log("Double:", doubledNumber);
 ```js
 // You are given a variable frodo - Frodo walks alone.
 // But frodo doesn't like to walk alone. He likes to walk with Sam, his friend. 
-// Write a function called `notAlone()` that takes the input frodo, handle the logic so the return value is "Frodo walks with Sam".
+// Write a function called `notAlone()` that takes the input frodo, 
+// handle the logic so the return value is "Frodo walks with Sam".
 
 // Example:
 
@@ -196,14 +197,18 @@ console.log(calculateFactorial(number));
 
 What the hell is an anagram?
 
-An anagram is direct word switch or word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once.
+An anagram is direct word switch or word play, the result of rearranging the 
+letters of a word or phrase to produce a new word or phrase, using all the 
+original letters exactly once.
 
 ```js
-// Create a function named isAnagram() following your current language's style guide. 
-// It should take two strings and return a boolean value depending on whether it's an anagram or not.
+// Create a function named isAnagram() following your current language's style 
+// guide. 
+// It should take two strings and return a boolean value depending on whether 
+// it's an anagram or not.
 
-// The function should ignore the letter case as well as any non (latin) letter characters, 
-// i.e. "Astronomer" is an anagram of "Moon starer!"
+// The function should ignore the letter case as well as any non (latin) letter  
+// characters, i.e. "Astronomer" is an anagram of "Moon starer!"
 
 // Example usage:
 
@@ -221,13 +226,16 @@ console.log(isAnagram(string3, string4)); // Output: false
 
 What the hell is a palindrome?
 
-A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
+A palindrome is a word, phrase, number, or other sequence of characters which 
+reads the same backward as forward, such as madam or racecar.
 
 ```js
 // Create a function named isPalindrome(). 
-// It should take a string and check whether it is a palindrome or not and return a boolean value.
+// It should take a string and check whether it is a palindrome or not and 
+// return a boolean value.
 
-// The function should ignore the letter case as well as any non (latin) letter characters.
+// The function should ignore the letter case as well as any non (latin) 
+// letter characters.
 
 // Example usage:
 
@@ -242,7 +250,8 @@ console.log(isPalindrome(inputString)); // Output: true
 // Create a function named build(). 
 // It should take a string, create a palindrome from it and then return it.
 
-// The function should ignore the letter case as well as any non (latin) letter characters.
+// The function should ignore the letter case as well as any non (latin) letter 
+// characters.
 
 // Example usage:
 
@@ -254,7 +263,8 @@ console.log(build(inputString)); // Output: "helloworlddlrowolleh"
 
 ```js
 // Create a function named search(). 
-// It should take a string, search for palindromes of length at least 3 within it and return them in an array.
+// It should take a string, search for palindromes of length at least 3 within 
+// it and return them in an array.
 
 // Hint: create a function named isPalindrome() which takes a string as an input 
 // and returns true/false depending on whether the string is a palindrome or not.
@@ -268,8 +278,8 @@ console.log(search(inputString)); // Output: ["bcb", "racecar", "wow"]
 ### Using recursion
 
 ```js
-// Implement "numberAdder" which is a recursive function that takes one parameter: n (number)
-// and returns the sum of integers from 1 to n.
+// Implement "numberAdder" which is a recursive function that takes one parameter: 
+// n (number) and returns the sum of integers from 1 to n.
 // The function should return 0 for inputs less than 1.
 ```
 

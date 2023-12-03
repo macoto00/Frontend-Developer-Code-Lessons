@@ -117,6 +117,8 @@ console.log(convertToUppercase(42)); // Output: Error converting to uppercase: I
 ```js
 // Create a function that simulates catching a wild Pokémon. 
 // Use a try-catch block to handle scenarios where catching the Pokémon fails due to low chances.
+// You should randomly roll a number between 1 to 100 included. If the number is >= 80, it is 
+// a successful catch.
 
 // Example output: 
 
