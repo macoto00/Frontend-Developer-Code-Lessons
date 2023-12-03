@@ -2,18 +2,35 @@
 
 Let the Journey begins!
 
-## General info about Course Frontend Developer
+## Course Basics
 
 - Online
-- Videos Learning, Google Materials, Course Materials, Practise in Lessons
 - Course in Czech language, Documentation in English
+- Discord Chat
+- Videos Learning, Google Materials, Practise in Lessons
+- Checkin, Homeworks Showcase, A little bit of theory, Practical coding demonstration, Questions, Students Code Tasks
 - 3 days a week
 - Homeworks
-- Tell us How do you do Today
-- Real Life Project
-- Soft Skills
-- Algorythms
+- Real Life Project, Standups (What you did, What you struggle, How to resolve, What are you going to do)
+- Soft Skills (A lot of talkings in a group, get used to it, talking about code, talking about mood)
+- Algorythms (Codewars, KATA)
 - Interview Practise
+- Tell us How do you do Today
+
+## Goals
+
+- Course basics
+- GOOGLE Chrome - https://www.google.com/intl/cs/chrome/
+- Discord Chat - https://discord.com/
+- Github profile creation - https://github.com/
+- Repository creation
+- Github Desktop, Git Command Line Commands - https://desktop.github.com/
+- Get familiar with the Git and GitHub - https://git-scm.com/
+- Visual Studio Code setup - https://code.visualstudio.com/
+- InteliJ IDEA Community Edition - https://www.jetbrains.com/idea/
+- "Hello World!"
+- Get familiar with the tools: the browser, the editor 
+- HTML, CSS, JS Basics
 
 ## Topics
 
