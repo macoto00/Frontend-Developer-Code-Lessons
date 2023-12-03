@@ -224,13 +224,13 @@ It's showtime!
 
 ### Animal 
 
-- Create an Animal class
-- Every animal has a hunger value, which is a whole number
-- Every animal has a thirst value, which is a whole number
-- When creating a new animal instance these values must be set to the default 50 value
-- Every animal can eat() which decreases its hunger by one
-- Every animal can drink() which decreases its thirst by one
-- Every animal can play() which increases both its hunger and thirst by one
+- Create an `Animal` class
+- Every `animal` has a `hunger` value, which is a whole number
+- Every `animal` has a `thirst` value, which is a whole number
+- When creating a new `animal` instance these values must be set to the default 50 value
+- Every `animal` can `eat()` which decreases its `hunger` by one
+- Every `animal` can `drink()` which decreases its `thirst` by one
+- Every `animal` can `play()` which increases both its `hunger` and `thirst` by one
 
 ### Teacher and Student 
 
@@ -259,4 +259,5 @@ It's showtime!
 
 ### Pirates 💪💪
 
-Here is your task: Pirates
+[Here is your task: Pirates](https://github.com/macoto00/Frontend-Developer-Code-Lessons/blob/main/JS%20Topics/Topics/Topic%2013%20-%20Object%20Oriented%20programming/Workshops/Pirates.md)
+
