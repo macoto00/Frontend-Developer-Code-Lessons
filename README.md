@@ -7,14 +7,14 @@ Let the Journey begins!
 - Online
 - Course in Czech language, Documentation in English
 - Discord Chat
-- Videos Learning, Google Materials, Practise in Lessons
-- Checkin, Homeworks Showcase, A little bit of theory, Practical coding demonstration, Questions, Students Code Tasks
+- Videos Learning, Google Materials, Practice in Lessons
+- check-in, Homeworks Showcase, A little bit of theory, Practical coding demonstration, Questions, Students Code Tasks
 - 3 days a week
 - Homeworks
-- Real Life Project, Standups (What you did, What you struggle, How to resolve, What are you going to do)
+- Real Life Project, Standup (What you did, What you struggle, How to resolve, What are you going to do)
 - Soft Skills (A lot of talkings in a group, get used to it, talking about code, talking about mood)
-- Algorythms (Codewars, KATA)
-- Interview Practise
+- Algorithms (Codewars, KATA)
+- Interview Practice
 - Tell us How do you do Today
 
 ## Topics
