@@ -82,11 +82,7 @@ Answer: Closures are functions within other functions that retain access to thei
 
 - What are the differences between let, const, and var in JavaScript?
 
-Answer:
-
-var declares a variable with function scope (hoisted), and it can be redeclared and updated throughout the code.
-let declares a variable with block scope, allowing reassignment but not redeclaration in the same scope.
-const declares a constant variable with block scope that can't be reassigned or redeclared.
+Answer: `var` declares a variable with function scope (hoisted), and it can be redeclared and updated throughout the code. `let` declares a variable with block scope, allowing reassignment but not redeclaration in the same scope. `const` declares a constant variable with block scope that can't be reassigned or redeclared.
 
 - Explain the difference between synchronous and asynchronous programming in JavaScript.
 
