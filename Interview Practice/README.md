@@ -36,7 +36,7 @@ Answer: The CSS box model describes the space occupied by an element and consist
 
 - What are semantic HTML tags, and why are they important?
 
-Answer: Semantic HTML tags provide meaning to the content they surround, enhancing accessibility, SEO, and the structure of a webpage. Examples include <header>, <footer>, <article>, etc.
+Answer: Semantic HTML tags provide meaning to the content they surround, enhancing accessibility, SEO, and the structure of a webpage. Examples include `<header>`, `<footer>`, `<article>`, etc.
 
 - Describe the difference between padding and margin in CSS.
 
