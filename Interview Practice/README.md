@@ -24,7 +24,7 @@ Answer: HTML (HyperText Markup Language) provides the structure and content of w
 
 - Explain the difference between inline, block, and inline-block elements in HTML/CSS.
 
-Answer: Inline elements (e.g., <span>, <a>) do not start on a new line and occupy only as much width as necessary. Block elements (e.g., <div>, <p>) start on a new line and take up the full width available. Inline-block elements (e.g., <img>, <button>) display as blocks while behaving as inline elements, allowing elements to sit side by side.
+Answer: Inline elements (e.g., `<span>`, `<a>`) do not start on a new line and occupy only as much width as necessary. Block elements (e.g., `<div>`, `<p>`) start on a new line and take up the full width available. Inline-block elements (e.g., `<img>`, `<button>`) display as blocks while behaving as inline elements, allowing elements to sit side by side.
 
 - How does CSS specificity work, and how is it calculated?
 
