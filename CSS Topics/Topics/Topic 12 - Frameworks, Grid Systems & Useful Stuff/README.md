@@ -79,6 +79,8 @@ Images - https://storyset.com/
 
 Vector icons and Images - https://www.flaticon.com/
 
+Other Images - https://unsplash.com/
+
 Particles - https://vincentgarreau.com/particles.js/
 
 Animated Background - https://wweb.dev/resources/animated-css-background-generator
