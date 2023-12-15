@@ -14,11 +14,11 @@ For your work, try to do a research for:
 - something like HTML how to set width and height to an image
 - where to get the icons? Wherever you want, you can try Flaticon (https://www.flaticon.com/)
 
-Do you knou you can make your own Favicon? https://realfavicongenerator.net/
-
 ## Webpage Favicon
 
 ![webPageTab](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0bb50233-ba5a-408a-84b6-7835be474cfe)
+
+Do you knou you can make your own Favicon? https://realfavicongenerator.net/
 
 ## Index Page
 
