@@ -19,6 +19,7 @@ The points to cover:
 - Advanced Frontend course
 - UX/UI course (User Experience, User Interface)
 - SEO (Search Engine Optimization)
+- GOOGLE Analytics
 - Testing course
 - Backend language 
 - Database handling
