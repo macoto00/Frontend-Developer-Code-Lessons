@@ -23,8 +23,10 @@ Use context of your choice AKA it's up to you what website will you create. Here
 - whatever you want
 
 1) Choose color scheme. You can use this - https://colorhunt.co/
-2) Choose Fonts
-3) Choose images
+2) Choose Fonts. You can use this - https://fontawesome.com/icons 
+3) Choose images. You can use this - https://unsplash.com/
+
+4) Or you can find and use what you want.
 
 If you struggle with content writing, feel free to use AI.
 
