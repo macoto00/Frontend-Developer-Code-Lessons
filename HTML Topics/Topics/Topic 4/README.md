@@ -18,7 +18,7 @@ For your work, try to do a research for:
 
 ![webPageTab](https://github.com/macoto00/Frontend-Developer-Code-Lessons/assets/117540231/0bb50233-ba5a-408a-84b6-7835be474cfe)
 
-Do you knou you can make your own Favicon? https://realfavicongenerator.net/
+Do you know you can make your own Favicon? https://realfavicongenerator.net/
 
 ## Index Page
 
