@@ -19,6 +19,7 @@ Use context of your choice AKA it's up to you what website will you create. Here
 - some product website
 - Hogwarts website
 - Santa's Claus website
+- Star Wars website
 - whatever you want
 
 1) Choose color scheme. You can use this - https://colorhunt.co/
