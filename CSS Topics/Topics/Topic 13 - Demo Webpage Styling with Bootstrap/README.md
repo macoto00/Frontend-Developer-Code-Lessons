@@ -26,7 +26,7 @@ Use context of your choice AKA it's up to you what website will you create. Here
 2) Choose Fonts. You can use this - https://fontawesome.com/icons 
 3) Choose images. You can use this - https://unsplash.com/
 
-4) Or you can find and use what you want.
+Or you can find and use what you want.
 
 If you struggle with content writing, feel free to use AI.
 
