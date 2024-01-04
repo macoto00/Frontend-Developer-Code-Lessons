@@ -115,6 +115,8 @@ let person = {
 // Add a new property for occupation here
 // like occupation: Lizard
 
+// Change the country to Hogwarts
+
 // Output the modified person object
 console.log(person);
 
