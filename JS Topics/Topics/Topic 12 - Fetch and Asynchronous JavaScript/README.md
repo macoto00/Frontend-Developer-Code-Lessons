@@ -131,59 +131,59 @@ fetch('https://api.example.com/data')
 
 **Simplicity**
 
-The fetch API provides a simple and clean syntax for making network requests compared to older methods.
+- The fetch API provides a simple and clean syntax for making network requests compared to older methods.
 
 **Promises** 
 
-It uses Promises, making it easier to handle asynchronous operations and chaining multiple requests or actions.
+- It uses Promises, making it easier to handle asynchronous operations and chaining multiple requests or actions.
 
 **Built-in JSON Handling**
 
-The fetch function automatically parses JSON responses using the .json() method, simplifying the process of working with JSON data.
+- The fetch function automatically parses JSON responses using the .json() method, simplifying the process of working with JSON data.
 
-Support for Different Data Formats: Apart from JSON, it can handle other types of responses like text, blobs, and FormData.
+- Support for Different Data Formats: Apart from JSON, it can handle other types of responses like text, blobs, and FormData.
 
 **Modern API**
 
-fetch is a part of the modern JavaScript API, designed to work well with modern features like Promises and async/await.
+- fetch is a part of the modern JavaScript API, designed to work well with modern features like Promises and async/await.
 
 **Flexibility**
 
-It allows you to configure requests with options like headers, request methods, authentication, and more.
+- It allows you to configure requests with options like headers, request methods, authentication, and more.
 
 ### Common Use Cases
 
 **API Calls**
 
-Fetching data from a server-side API to display information on a web page.
+- Fetching data from a server-side API to display information on a web page.
 
 **Posting Data**
 
-Sending form data or JSON payloads to a server to create or update resources.
+- Sending form data or JSON payloads to a server to create or update resources.
 
 **Downloading Files**
 
-Fetching files such as images, documents, or media content.
+- Fetching files such as images, documents, or media content.
 
 ### General Knowledge
 
 **Cross-Origin Requests**
 
-By default, fetch follows the browser's same-origin policy, which restricts making requests to different domains. For cross-origin requests, CORS (Cross-Origin Resource Sharing) headers need to be set on the server.
+- By default, fetch follows the browser's same-origin policy, which restricts making requests to different domains. For cross-origin requests, CORS (Cross-Origin Resource Sharing) headers need to be set on the server.
 
 **Error Handling**
 
-Always handle errors when using fetch. Check for network issues, failed responses, or rejected promises to provide a better user experience and manage unexpected situations gracefully.
+- Always handle errors when using fetch. Check for network issues, failed responses, or rejected promises to provide a better user experience and manage unexpected situations gracefully.
 
 **Polyfills**
 
-Older browsers might not support the fetch API. In such cases, you can use a polyfill, like isomorphic-fetch or fetch-ponyfill, to enable fetch functionality.
+- Older browsers might not support the fetch API. In such cases, you can use a polyfill, like isomorphic-fetch or fetch-ponyfill, to enable fetch functionality.
 
 **Security**
 
-When dealing with sensitive data or user authentication, ensure that HTTPS is used to encrypt data transmission over the network.
+- When dealing with sensitive data or user authentication, ensure that HTTPS is used to encrypt data transmission over the network.
 
-Understanding fetch and its capabilities is crucial for modern web development, as it forms the backbone of many applications' communication with servers.
+- Understanding fetch and its capabilities is crucial for modern web development, as it forms the backbone of many applications' communication with servers.
 
 ## JSON
 
