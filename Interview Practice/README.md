@@ -1,5 +1,7 @@
 # Job Interview
 
+Read this - https://www.macoto-dev.cz/dist/blog-pages/job-interview.html
+
 Tell us about yourself. 
 
 Why our company?
