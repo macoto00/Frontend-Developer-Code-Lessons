@@ -113,6 +113,7 @@ let person = {
 // Modify the age value here
 
 // Add a new property for occupation here
+// like occupation: Lizard
 
 // Output the modified person object
 console.log(person);
