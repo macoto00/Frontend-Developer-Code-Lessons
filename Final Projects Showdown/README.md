@@ -42,4 +42,4 @@ Where to solve Algorithms?
 
 ## 10 Advice To All Junior Developers Out There
 
-https://www.macoto-dev.cz/dist/blog-pages/ten-advices-to-juniors.html
+https://www.macoto-dev.cz/dist/blog-clanky/deset-rad-juniorum.html
