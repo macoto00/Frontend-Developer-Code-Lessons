@@ -205,8 +205,8 @@ Answer (Angular): Angular provides services, RxJS, and NgRx (an Angular-specific
 
 ## How to prepare for interview?
 
-- Must have is GitHub & LinkedIn profile
-- Big bonus is your own website, portfolio of products
+- Must have is GitHub & LinkedIn profile.
+- Big bonus is your own website, portfolio of products.
 - Do Algorithmic exercises daily.
 - Practice theoretical questions (use AI to generate the questions like "most common fronted interview questions").
 - Complete the interviews. Every interview takes you further. Especially the ones that don't go in your favor.
